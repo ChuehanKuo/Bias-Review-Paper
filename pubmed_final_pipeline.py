@@ -7,8 +7,9 @@ PubMed Final Pipeline for Systematic Review:
 2. Deduplicate
 3. Fetch title + abstract
 4. Screen by title+abstract
-5. Extract ALL structured columns from abstract text
-6. Build Excel
+5. Full-text screen (abstract-based, consistent with ACM/IEEE pipelines)
+6. Extract ALL structured columns from abstract text
+7. Build Excel
 """
 
 import json
@@ -233,6 +234,91 @@ def screen_paper(paper):
         return False, 'Human cognitive biases only'
 
     return True, 'Included'
+
+
+# ============================================================
+# FULL-TEXT SCREENING (abstract-based for PubMed)
+# ============================================================
+
+def fulltext_screen(paper):
+    """
+    Full-text screening with strict criteria.
+    For PubMed papers, we use abstract only (consistent with ACM/IEEE pipeline).
+    """
+    title = (paper.get('title', '') or '').lower()
+    abstract = (paper.get('abstract', '') or '').lower()
+    combined = title + ' ' + abstract
+
+    approach_indicators = [
+        'bias assessment', 'bias detection', 'bias evaluation', 'bias audit',
+        'fairness assessment', 'fairness evaluation', 'fairness audit',
+        'bias measurement', 'bias quantification', 'bias analysis',
+        'measuring bias', 'detecting bias', 'evaluating bias',
+        'fairness metric', 'fairness measure', 'bias metric',
+        'demographic parity', 'equalized odds', 'equal opportunity',
+        'disparate impact', 'predictive parity', 'calibration across',
+        'subgroup analysis', 'disaggregated', 'stratified performance',
+        'bias mitigation', 'bias reduction', 'bias correction',
+        'debiasing', 'debias', 'fairness-aware',
+        'fair machine learning', 'fair classification',
+        'adversarial debiasing', 'reweighting', 'reweighing',
+        'resampling', 'data augmentation for fairness',
+        'fairness constraint', 'fairness regularization',
+        'threshold adjustment', 'calibration', 'post-processing',
+        'pre-processing', 'in-processing',
+        'counterfactual fairness', 'causal fairness',
+        'fairness framework', 'bias framework', 'equity framework',
+        'ai fairness 360', 'aequitas', 'fairlearn',
+        'bias toolkit', 'fairness toolkit',
+        'model card', 'datasheet',
+        'review of bias', 'survey of fairness', 'review of fairness',
+        'bias mitigation strategies', 'approaches to fairness',
+        'methods for bias', 'techniques for fairness',
+    ]
+    approach_count = sum(1 for t in approach_indicators if t in combined)
+
+    ai_terms = [
+        'machine learning', 'deep learning', 'artificial intelligence',
+        'neural network', 'algorithm', 'predictive model', 'classifier',
+        'natural language processing', 'computer vision',
+        'random forest', 'logistic regression', 'xgboost',
+        'convolutional', 'transformer', 'large language model', 'llm',
+        'decision support', 'risk prediction', 'federated learning',
+        'reinforcement learning', 'foundation model', 'chatgpt', 'gpt'
+    ]
+    has_ai = any(t in combined for t in ai_terms)
+
+    health_terms = [
+        'health', 'clinical', 'medical', 'patient', 'hospital', 'disease',
+        'diagnosis', 'treatment', 'care', 'radiology', 'dermatology',
+        'cardiology', 'oncology', 'ophthalmology', 'psychiatry',
+        'ehr', 'electronic health', 'biomedical', 'mortality',
+        'readmission', 'sepsis', 'icu', 'emergency', 'chest x-ray',
+        'cancer', 'diabetes', 'cardiovascular', 'public health',
+        'healthcare', 'medicine'
+    ]
+    has_health = any(t in combined for t in health_terms)
+
+    bias_in_title = any(t in title for t in [
+        'bias', 'fairness', 'fair ', 'equitable', 'equity', 'disparity',
+        'disparities', 'debiasing', 'debias', 'underdiagnos', 'inequit',
+        'discrimination'
+    ])
+
+    if not has_ai:
+        return False, 'No AI/ML component'
+    if not has_health:
+        return False, 'Not health-related'
+
+    # Abstract-only screening (slightly more lenient than full-text)
+    if approach_count >= 2 and bias_in_title:
+        return True, 'Included: bias central + approach content'
+    elif approach_count >= 3:
+        return True, 'Included: substantial approach content in abstract'
+    elif bias_in_title and approach_count >= 1:
+        return True, 'Included: bias is central topic (abstract only)'
+    else:
+        return False, f'Excluded: insufficient approach content ({approach_count} indicators)'
 
 
 # ============================================================
@@ -539,6 +625,8 @@ def build_excel(included, excluded, query_stats, meta):
         ['Total Unique PMIDs:', str(meta['total_unique'])],
         ['Fetched:', str(meta['total_fetched'])],
         ['Screened:', str(len(included) + len(excluded))],
+        ['Title+Abstract Included:', str(meta.get('ta_included', ''))],
+        ['Full-text Included:', str(meta.get('ft_included', ''))],
         ['INCLUDED:', str(len(included))],
         ['EXCLUDED:', str(len(excluded))],
         [''],
@@ -660,22 +748,39 @@ def main():
     papers = fetch_papers(sorted(all_pmids))
     print(f"  Fetched: {len(papers)}")
 
-    # Step 3: Screen
-    print(f"\nSTEP 3: Screening by title+abstract...")
-    included = []
+    # Step 3: Screen by title+abstract
+    print(f"\nSTEP 3: Screening {len(papers)} papers by title+abstract...")
+    ta_included = []
     excluded = []
     for pmid, p in papers.items():
         inc, reason = screen_paper(p)
         p['include'] = inc
         p['screen_reason'] = reason
         if inc:
-            included.append(p)
+            ta_included.append(p)
         else:
             excluded.append(p)
-    print(f"  INCLUDED: {len(included)} | EXCLUDED: {len(excluded)}")
+    print(f"  Title+Abstract INCLUDED: {len(ta_included)}")
+    print(f"  Title+Abstract EXCLUDED: {len(excluded)}")
 
-    # Step 4: Extract columns
-    print(f"\nSTEP 4: Extracting structured data from abstracts...")
+    # Step 4: Full-text screening (abstract-based)
+    print(f"\nSTEP 4: Full-text screening (abstract-based)...")
+    included = []
+    ft_excluded = []
+    for p in ta_included:
+        inc, reason = fulltext_screen(p)
+        if inc:
+            included.append(p)
+        else:
+            p['include'] = False
+            p['screen_reason'] = reason
+            ft_excluded.append(p)
+    excluded.extend(ft_excluded)
+    print(f"  Full-text INCLUDED: {len(included)}")
+    print(f"  Full-text EXCLUDED: {len(ft_excluded)}")
+
+    # Step 5: Extract columns
+    print(f"\nSTEP 5: Extracting structured data from abstracts...")
     for p in included:
         p['study_type'] = extract_study_type(p)
         p['ai_ml_method'] = extract_ai_ml_method(p)
@@ -691,18 +796,41 @@ def main():
     # Sort by year (newest first)
     included.sort(key=lambda x: x.get('year', '0'), reverse=True)
 
-    # Step 5: Build Excel
-    print(f"\nSTEP 5: Building Excel...")
-    meta = {'total_unique': len(all_pmids), 'total_fetched': len(papers)}
+    # Step 6: Build Excel
+    print(f"\nSTEP 6: Building Excel...")
+    meta = {
+        'total_unique': len(all_pmids),
+        'total_fetched': len(papers),
+        'ta_included': len(ta_included),
+        'ft_included': len(included),
+        'ft_excluded': len(ft_excluded),
+    }
     build_excel(included, excluded, query_stats, meta)
 
     # Save JSON backup
     with open('/home/user/Bias-Review-Paper/pubmed_final_data.json', 'w') as f:
         json.dump({
-            'included': included, 'excluded': excluded,
+            'ft_included': included, 'ft_excluded': ft_excluded,
+            'ta_excluded': [p for p in excluded if p not in ft_excluded],
             'query_stats': query_stats, 'meta': meta
         }, f, indent=2)
     print("Saved JSON backup: pubmed_final_data.json")
+
+    # Screening summary
+    print(f"\n{'='*70}")
+    print("PUBMED SCREENING RESULTS")
+    print(f"{'='*70}")
+    print(f"  Total unique papers: {len(all_pmids)}")
+    print(f"  Title+Abstract included: {len(ta_included)}")
+    print(f"  Full-text included: {len(included)}")
+    print(f"  Total excluded: {len(excluded)}")
+    print(f"\nFull-text exclusion breakdown:")
+    ft_reasons = {}
+    for p in ft_excluded:
+        r = p.get('screen_reason', 'Unknown')
+        ft_reasons[r] = ft_reasons.get(r, 0) + 1
+    for r, c in sorted(ft_reasons.items(), key=lambda x: -x[1]):
+        print(f"  {c:>4}  {r}")
 
     # Quick stats
     print(f"\n{'='*70}")
