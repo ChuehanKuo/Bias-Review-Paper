@@ -50,7 +50,7 @@ HEADERS = [
 
 def main():
     # Load data
-    with open('/home/user/Bias-Review-Paper/pubmed_screening_data.json', 'r') as f:
+    with open('/home/user/Bias-Review-Paper/pubmed_clean_screening.json', 'r') as f:
         data = json.load(f)
 
     included = data['included']
@@ -74,8 +74,8 @@ def main():
         ['Review Title:', 'Approaches for Assessing and Mitigating Algorithmic Bias in Health AI', ''],
         ['Database:', 'PubMed/MEDLINE via NCBI E-utilities API', ''],
         ['Screening Date:', '2026-02-16', ''],
-        ['Search Queries Used:', f'{len(data["query_stats"])} queries', ''],
-        ['Total Unique PMIDs:', str(data['total_pmids']), ''],
+        ['Search Queries Used:', f'{len(data["query_stats"])} focused Boolean queries', ''],
+        ['Total Unique PMIDs:', str(data['total_unique_pmids']), ''],
         ['Papers Fetched:', str(data['total_fetched']), ''],
         ['Title+Abstract Screened:', str(len(included) + len(excluded)), ''],
         ['INCLUDED:', str(len(included)), ''],
