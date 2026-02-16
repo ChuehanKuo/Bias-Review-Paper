@@ -1,0 +1,2018 @@
+FILTERED PUBMED SEARCH RESULTS - RELEVANT TO ALGORITHMIC BIAS IN HEALTH AI
+========================================================================================================================
+Total papers from search: 1523
+Relevant papers (title-filtered): 336
+NOTE: This is title-based filtering only. Abstract screening still needed.
+========================================================================================================================
+
+1. Understanding and Addressing Bias in Artificial Intelligence Systems: A Primer for the Emergency Medicine Physician.
+   Year: 2026 | Journal: Journal of the American College of Emergency Physicians open
+   URL: https://pubmed.ncbi.nlm.nih.gov/41536573/
+   DOI: https://doi.org/10.1016/j.acepjo.2025.100311
+   [Matched: strong_keyword]
+
+2. The Algorithmic Divide: A Systematic Review on AI-Driven Racial Disparities in Healthcare.
+   Year: 2026 | Journal: Journal of racial and ethnic health disparities
+   URL: https://pubmed.ncbi.nlm.nih.gov/39695057/
+   DOI: https://doi.org/10.1007/s40615-024-02237-0
+   [Matched: strong_keyword]
+
+3. Rethinking fairness in AI to improve current practice in oncology.
+   Year: 2026 | Journal: Trends in cancer
+   URL: https://pubmed.ncbi.nlm.nih.gov/41339188/
+   DOI: https://doi.org/10.1016/j.trecan.2025.11.005
+   [Matched: bias+ai]
+
+4. Regulating AI in Nursing and Healthcare: Ensuring Safety, Equity, and Accessibility in the Era of Federal Innovation Policy.
+   Year: 2026 | Journal: Policy, politics & nursing practice
+   URL: https://pubmed.ncbi.nlm.nih.gov/41032683/
+   DOI: https://doi.org/10.1177/15271544251381228
+   [Matched: strong_keyword]
+
+5. Mapping Algorithmic Bias in AI-Powered Electrocardiogram Interpretation Across the AI Life Cycle: Protocol for a Scoping Review.
+   Year: 2026 | Journal: JMIR research protocols
+   URL: https://pubmed.ncbi.nlm.nih.gov/41556569/
+   DOI: https://doi.org/10.2196/82486
+   [Matched: strong_keyword]
+
+6. Gender-based data bias and model fairness evaluation in benchmarked open-access disease prediction datasets.
+   Year: 2026 | Journal: Computers in biology and medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/41604946/
+   DOI: https://doi.org/10.1016/j.compbiomed.2026.111503
+   [Matched: strong_keyword]
+
+7. Federated Learning in Healthcare Ethics: A Systematic Review of Privacy-Preserving and Equitable Medical AI.
+   Year: 2026 | Journal: Healthcare (Basel, Switzerland)
+   URL: https://pubmed.ncbi.nlm.nih.gov/41682156/
+   DOI: https://doi.org/10.3390/healthcare14030306
+   [Matched: strong_keyword]
+
+8. FairREAD: Re-fusing demographic attributes after disentanglement for fair medical image classification.
+   Year: 2026 | Journal: Medical image analysis
+   URL: https://pubmed.ncbi.nlm.nih.gov/41202615/
+   DOI: https://doi.org/10.1016/j.media.2025.103858
+   [Matched: bias+ai]
+
+9. Evaluation and improvement of algorithmic fairness for COVID-19 severity classification using Explainable Artificial Intelligence-based bias mitigation.
+   Year: 2026 | Journal: JAMIA open
+   URL: https://pubmed.ncbi.nlm.nih.gov/41522832/
+   DOI: https://doi.org/10.1093/jamiaopen/ooaf171
+   [Matched: strong_keyword]
+
+10. Enhancing Fairness in Large Language Models for Clinical Artificial Intelligence Applications Through Fine-Tuning and Prompting.
+   Year: 2026 | Journal: Journal of visualized experiments : JoVE
+   URL: https://pubmed.ncbi.nlm.nih.gov/41553870/
+   DOI: https://doi.org/10.3791/69132
+   [Matched: bias+ai]
+
+11. Demographic-aware deep learning for multi-organ segmentation: Mitigating gender and age biases in CT images.
+   Year: 2026 | Journal: Medical physics
+   URL: https://pubmed.ncbi.nlm.nih.gov/41681030/
+   DOI: https://doi.org/10.1002/mp.70322
+   [Matched: strong_keyword]
+
+12. Biases in an artificial intelligence image-generator's depictions of healthy aging and Alzheimer's.
+   Year: 2026 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/41144296/
+   DOI: https://doi.org/10.1093/jamia/ocaf173
+   [Matched: bias+ai]
+
+13. Bias and Oversight in Clinical AI: A Review of Decision Support Tools and Equity Frameworks.
+   Year: 2026 | Journal: Journal of general internal medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/41627658/
+   DOI: https://doi.org/10.1007/s11606-026-10229-5
+   [Matched: strong_keyword]
+
+14. Artificial Intelligence and Health Equity.
+   Year: 2026 | Journal: Annual review of medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/41115175/
+   DOI: https://doi.org/10.1146/annurev-med-043024-125309
+   [Matched: strong_keyword]
+
+15. Addressing Health Disparities through Community Engagement in Artificial Intelligence-Driven Prevention Science.
+   Year: 2026 | Journal: Prevention science : the official journal of the Society for Prevention Research
+   URL: https://pubmed.ncbi.nlm.nih.gov/41533193/
+   DOI: https://doi.org/10.1007/s11121-025-01863-2
+   [Matched: strong_keyword]
+
+16. AI/ML-based strategies for enhancing equity, diversity, and inclusion in randomized clinical trials.
+   Year: 2026 | Journal: Trials
+   URL: https://pubmed.ncbi.nlm.nih.gov/41680855/
+   DOI: https://doi.org/10.1186/s13063-026-09537-2
+   [Matched: strong_keyword]
+
+17. Where, why, and how is bias learned in medical image analysis models? A study of bias encoding within convolutional networks using synthetic data.
+   Year: 2025 | Journal: EBioMedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/39671751/
+   DOI: https://doi.org/10.1016/j.ebiom.2024.105501
+   [Matched: bias+ai]
+
+18. When noise mitigates bias in human-algorithm decision-making: An agent-based model.
+   Year: 2025 | Journal: PloS one
+   URL: https://pubmed.ncbi.nlm.nih.gov/41460829/
+   DOI: https://doi.org/10.1371/journal.pone.0339273
+   [Matched: bias+ai]
+
+19. Using human factors methods to mitigate bias in artificial intelligence-based clinical decision support.
+   Year: 2025 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/39569464/
+   DOI: https://doi.org/10.1093/jamia/ocae291
+   [Matched: strong_keyword]
+
+20. Understanding the development, performance, fairness, and transparency of machine learning models used in child protection prediction: A systematic review.
+   Year: 2025 | Journal: Child abuse & neglect
+   URL: https://pubmed.ncbi.nlm.nih.gov/40780075/
+   DOI: https://doi.org/10.1016/j.chiabu.2025.107630
+   [Matched: bias+ai]
+
+21. Uncovering ethical biases in publicly available fetal ultrasound datasets.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40514386/
+   DOI: https://doi.org/10.1038/s41746-025-01739-3
+   [Matched: bias+ai]
+
+22. Unbiased and reproducible liver MRI-PDFF estimation using a scan protocol-informed deep learning method.
+   Year: 2025 | Journal: European radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39500799/
+   DOI: https://doi.org/10.1007/s00330-024-11164-x
+   [Matched: bias+ai]
+
+23. UnBias: Unveiling Bias Implications in Deep Learning Models for Healthcare Applications.
+   Year: 2025 | Journal: IEEE journal of biomedical and health informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39495690/
+   DOI: https://doi.org/10.1109/JBHI.2024.3484951
+   [Matched: bias+ai]
+
+24. Transforming Cancer Care: A Narrative Review on Leveraging Artificial Intelligence to Advance Immunotherapy in Underserved Communities.
+   Year: 2025 | Journal: Journal of clinical medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40806968/
+   DOI: https://doi.org/10.3390/jcm14155346
+   [Matched: strong_keyword]
+
+25. Towards fairness-aware and privacy-preserving enhanced collaborative learning for healthcare.
+   Year: 2025 | Journal: Nature communications
+   URL: https://pubmed.ncbi.nlm.nih.gov/40122892/
+   DOI: https://doi.org/10.1038/s41467-025-58055-3
+   [Matched: strong_keyword]
+
+26. Towards Fairness in Synthetic Healthcare Data: A Framework for the Evaluation of Synthetization Algorithms.
+   Year: 2025 | Journal: Studies in health technology and informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40899524/
+   DOI: https://doi.org/10.3233/SHTI251376
+   [Matched: bias+ai]
+
+27. Toward a fair, gender-debiased classifier for the diagnosis of attention deficit/hyperactivity disorder- a Machine-Learning based classification study.
+   Year: 2025 | Journal: BMC medical informatics and decision making
+   URL: https://pubmed.ncbi.nlm.nih.gov/40764552/
+   DOI: https://doi.org/10.1186/s12911-025-03126-0
+   [Matched: bias+ai]
+
+28. The role of AI for improved management of breast cancer: Enhanced diagnosis and health disparity mitigation.
+   Year: 2025 | Journal: Computer methods and programs in biomedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40926431/
+   DOI: https://doi.org/10.1016/j.cmpb.2025.109036
+   [Matched: strong_keyword]
+
+29. The bias algorithm: how AI in healthcare exacerbates ethnic and racial disparities - a scoping review.
+   Year: 2025 | Journal: Ethnicity & health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39488857/
+   DOI: https://doi.org/10.1080/13557858.2024.2422848
+   [Matched: strong_keyword]
+
+30. The Impact of Race, Ethnicity, and Sex on Fairness in Artificial Intelligence for Glaucoma Prediction Models.
+   Year: 2025 | Journal: Ophthalmology science
+   URL: https://pubmed.ncbi.nlm.nih.gov/39386055/
+   DOI: https://doi.org/10.1016/j.xops.2024.100596
+   [Matched: bias+ai]
+
+31. The Efficacy of Conversational AI in Rectifying the Theory-of-Mind and Autonomy Biases: Comparative Analysis.
+   Year: 2025 | Journal: JMIR mental health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39919295/
+   DOI: https://doi.org/10.2196/64396
+   [Matched: bias+ai]
+
+32. Tackling algorithmic bias and promoting transparency in health datasets: the STANDING Together consensus recommendations.
+   Year: 2025 | Journal: The Lancet. Digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39701919/
+   DOI: https://doi.org/10.1016/S2589-7500(24)00224-3
+   [Matched: strong_keyword]
+
+33. Stakeholder Perspectives on Trustworthy AI for Parkinson Disease Management Using a Cocreation Approach: Qualitative Exploratory Study.
+   Year: 2025 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/40768261/
+   DOI: https://doi.org/10.2196/73710
+   [Matched: strong_keyword]
+
+34. Sociodemographic biases in medical decision making by large language models.
+   Year: 2025 | Journal: Nature medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40195448/
+   DOI: https://doi.org/10.1038/s41591-025-03626-6
+   [Matched: bias+ai]
+
+35. Sociodemographic bias in clinical machine learning models: a scoping review of algorithmic bias instances and mechanisms.
+   Year: 2025 | Journal: Journal of clinical epidemiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39532254/
+   DOI: https://doi.org/10.1016/j.jclinepi.2024.111606
+   [Matched: strong_keyword]
+
+36. Shortcut learning leads to sex bias in deep learning models for photoacoustic tomography.
+   Year: 2025 | Journal: International journal of computer assisted radiology and surgery
+   URL: https://pubmed.ncbi.nlm.nih.gov/40343639/
+   DOI: https://doi.org/10.1007/s11548-025-03370-9
+   [Matched: strong_keyword]
+
+37. Shaping the Future of Healthcare: Ethical Clinical Challenges and Pathways to Trustworthy AI.
+   Year: 2025 | Journal: Journal of clinical medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40095575/
+   DOI: https://doi.org/10.3390/jcm14051605
+   [Matched: strong_keyword]
+
+38. Sex-Based Bias in Artificial Intelligence-Based Segmentation Models in Clinical Oncology.
+   Year: 2025 | Journal: Clinical oncology (Royal College of Radiologists (Great Britain))
+   URL: https://pubmed.ncbi.nlm.nih.gov/39874747/
+   DOI: https://doi.org/10.1016/j.clon.2025.103758
+   [Matched: strong_keyword]
+
+39. Revolutionizing gastroenterology and hepatology with artificial intelligence: From precision diagnosis to equitable healthcare through interdisciplinary practice.
+   Year: 2025 | Journal: World journal of gastroenterology
+   URL: https://pubmed.ncbi.nlm.nih.gov/40599184/
+   DOI: https://doi.org/10.3748/wjg.v31.i24.108021
+   [Matched: strong_keyword]
+
+40. Revolutionizing Oncology Through AI: Addressing Cancer Disparities by Improving Screening, Treatment, and Survival Outcomes via Integration of Social Determinants of Health.
+   Year: 2025 | Journal: Cancers
+   URL: https://pubmed.ncbi.nlm.nih.gov/40940963/
+   DOI: https://doi.org/10.3390/cancers17172866
+   [Matched: bias+ai]
+
+41. Revisiting Technical Bias Mitigation Strategies.
+   Year: 2025 | Journal: Annual review of biomedical data science
+   URL: https://pubmed.ncbi.nlm.nih.gov/40198849/
+   DOI: https://doi.org/10.1146/annurev-biodatasci-103123-095737
+   [Matched: strong_keyword]
+
+42. Representation and Bias in Artificial Intelligence Models for Thyroid Cancer: A Systematic Review.
+   Year: 2025 | Journal: Thyroid : official journal of the American Thyroid Association
+   URL: https://pubmed.ncbi.nlm.nih.gov/40865545/
+   DOI: https://doi.org/10.1177/10507256251372175
+   [Matched: strong_keyword]
+
+43. Racial bias in AI-mediated psychiatric diagnosis and treatment: a qualitative comparison of four large language models.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40467886/
+   DOI: https://doi.org/10.1038/s41746-025-01746-4
+   [Matched: strong_keyword]
+
+44. Privacy-Enhancing Sequential Learning under Heterogeneous Selection Bias in Multi-Site EHR Data.
+   Year: 2025 | Journal: medRxiv : the preprint server for health sciences
+   URL: https://pubmed.ncbi.nlm.nih.gov/41040699/
+   DOI: https://doi.org/10.1101/2025.09.26.25336642
+   [Matched: strong_keyword]
+
+45. Predicting postoperative chronic opioid use with fair machine learning models integrating multi-modal data sources: a demonstration of ethical machine learning in healthcare.
+   Year: 2025 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/40152140/
+   DOI: https://doi.org/10.1093/jamia/ocaf053
+   [Matched: strong_keyword]
+
+46. Predicting cancer survival at different stages: Insights from fair and explainable machine learning approaches.
+   Year: 2025 | Journal: International journal of medical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39970491/
+   DOI: https://doi.org/10.1016/j.ijmedinf.2025.105822
+   [Matched: bias+ai]
+
+47. Practical, epistemic and normative implications of algorithmic bias in healthcare artificial intelligence: a qualitative study of multidisciplinary expert perspectives.
+   Year: 2025 | Journal: Journal of medical ethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36823101/
+   DOI: https://doi.org/10.1136/jme-2022-108850
+   [Matched: strong_keyword]
+
+48. Potential for Algorithmic Bias in Clinical Decision Instrument Development.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/41372566/
+   DOI: https://doi.org/10.1038/s41746-025-02119-7
+   [Matched: strong_keyword]
+
+49. Pitfalls and Best Practices in Evaluation of AI Algorithmic Biases in Radiology.
+   Year: 2025 | Journal: Radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/40392092/
+   DOI: https://doi.org/10.1148/radiol.241674
+   [Matched: strong_keyword]
+
+50. Neural correlates of evaluative bias against artificial intelligence-labeled versus human-labeled artworks.
+   Year: 2025 | Journal: Social cognitive and affective neuroscience
+   URL: https://pubmed.ncbi.nlm.nih.gov/40644344/
+   DOI: https://doi.org/10.1093/scan/nsaf071
+   [Matched: bias+ai]
+
+51. Navigating Fairness in AI-based Prediction Models: Theoretical Constructs and Practical Applications.
+   Year: 2025 | Journal: medRxiv : the preprint server for health sciences
+   URL: https://pubmed.ncbi.nlm.nih.gov/40196288/
+   DOI: https://doi.org/10.1101/2025.03.24.25324500
+   [Matched: bias+ai]
+
+52. Navigating Bias and Fairness in AI.
+   Year: 2025 | Journal: Radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/40392095/
+   DOI: https://doi.org/10.1148/radiol.250081
+   [Matched: bias+ai]
+
+53. Multilingual voice-enabled informatics tools: Catalyst for equitable AI in HIV and HIV-comorbidity healthcare management.
+   Year: 2025 | Journal: PloS one
+   URL: https://pubmed.ncbi.nlm.nih.gov/41118361/
+   DOI: https://doi.org/10.1371/journal.pone.0332573
+   [Matched: strong_keyword]
+
+54. Mitigating bias in AI mortality predictions for minority populations: a transfer learning approach.
+   Year: 2025 | Journal: BMC medical informatics and decision making
+   URL: https://pubmed.ncbi.nlm.nih.gov/39825353/
+   DOI: https://doi.org/10.1186/s12911-025-02862-7
+   [Matched: strong_keyword]
+
+55. Mitigating Data Bias in Healthcare AI with Self-Supervised Standardization.
+   Year: 2025 | Journal: IEEE journal of biomedical and health informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40699955/
+   DOI: https://doi.org/10.1109/JBHI.2025.3588196
+   [Matched: strong_keyword]
+
+56. Minimizing Racial Algorithmic Bias when Predicting Electronic Health Record Data Completeness.
+   Year: 2025 | Journal: Clinical pharmacology and therapeutics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40696767/
+   DOI: https://doi.org/10.1002/cpt.3758
+   [Matched: strong_keyword]
+
+57. Machine learning-based mortality prediction in critically ill patients with hypertension: comparative analysis, fairness, and interpretability.
+   Year: 2025 | Journal: Frontiers in artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/41459572/
+   DOI: https://doi.org/10.3389/frai.2025.1686378
+   [Matched: bias+ai]
+
+58. Lack of children in public medical imaging data points to growing age bias in biomedical AI.
+   Year: 2025 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/41255988/
+   DOI: https://doi.org/10.21203/rs.3.rs-7713694/v1
+   [Matched: strong_keyword]
+
+59. Lack of children in public medical imaging data points to growing age bias in biomedical AI.
+   Year: 2025 | Journal: medRxiv : the preprint server for health sciences
+   URL: https://pubmed.ncbi.nlm.nih.gov/40661269/
+   DOI: https://doi.org/10.1101/2025.06.06.25328913
+   [Matched: strong_keyword]
+
+60. Laboratory Data as a Potential Source of Bias in Healthcare Artificial Intelligence and Machine Learning Models.
+   Year: 2025 | Journal: Annals of laboratory medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/39444135/
+   DOI: https://doi.org/10.3343/alm.2024.0323
+   [Matched: strong_keyword]
+
+61. Integrating health equity in artificial intelligence for public health in Canada: a rapid narrative review.
+   Year: 2025 | Journal: Frontiers in public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40171421/
+   DOI: https://doi.org/10.3389/fpubh.2025.1524616
+   [Matched: strong_keyword]
+
+62. Integrating Artificial Intelligence into Perinatal Care Pathways: A Scoping Review of Reviews of Applications, Outcomes, and Equity.
+   Year: 2025 | Journal: Nursing reports (Pavia, Italy)
+   URL: https://pubmed.ncbi.nlm.nih.gov/40863668/
+   DOI: https://doi.org/10.3390/nursrep15080281
+   [Matched: strong_keyword]
+
+63. Innovations in maternal-fetal dermatology: A focus on artificial intelligence-driven diagnostics, global disparities, and transformative care.
+   Year: 2025 | Journal: Clinics in dermatology
+   URL: https://pubmed.ncbi.nlm.nih.gov/40378901/
+   DOI: https://doi.org/10.1016/j.clindermatol.2025.05.013
+   [Matched: bias+ai]
+
+64. Improving medical machine learning models with generative balancing for equity and excellence.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/39953146/
+   DOI: https://doi.org/10.1038/s41746-025-01438-z
+   [Matched: strong_keyword]
+
+65. Implicit bias in digital health: systematic biases in large language models' representation of global public health attitudes and challenges to health equity.
+   Year: 2025 | Journal: Frontiers in public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/41393018/
+   DOI: https://doi.org/10.3389/fpubh.2025.1705082
+   [Matched: strong_keyword]
+
+66. Impacts of cognitive forcing and need for cognition on biased AI-assisted decision making about mental health emergencies.
+   Year: 2025 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/41326577/
+   DOI: https://doi.org/10.1038/s41598-025-30506-3
+   [Matched: bias+ai]
+
+67. Identifying and mitigating algorithmic bias in the safety net.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40473916/
+   DOI: https://doi.org/10.1038/s41746-025-01732-w
+   [Matched: strong_keyword]
+
+68. Health equity in the era of large language models.
+   Year: 2025 | Journal: The American journal of managed care
+   URL: https://pubmed.ncbi.nlm.nih.gov/40053403/
+   DOI: https://doi.org/10.37765/ajmc.2025.89695
+   [Matched: strong_keyword]
+
+69. Health Equity Considerations in the Age of Artificial Intelligence.
+   Year: 2025 | Journal: Neurology
+   URL: https://pubmed.ncbi.nlm.nih.gov/41264894/
+   DOI: https://doi.org/10.1212/WNL.0000000000214356
+   [Matched: strong_keyword]
+
+70. Gender and racial bias unveiled: clinical artificial intelligence (AI) and machine learning (ML) algorithms are fanning the flames of inequity.
+   Year: 2025 | Journal: Oxford open digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/41163810/
+   DOI: https://doi.org/10.1093/oodh/oqaf027
+   [Matched: strong_keyword]
+
+71. Federated multimodal AI for precision-equitable diabetes care.
+   Year: 2025 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/41623885/
+   DOI: https://doi.org/10.3389/fdgth.2025.1678047
+   [Matched: strong_keyword]
+
+72. Federated Learning in Public Health: A Systematic Review of Decentralized, Equitable, and Secure Disease Prevention Approaches.
+   Year: 2025 | Journal: Healthcare (Basel, Switzerland)
+   URL: https://pubmed.ncbi.nlm.nih.gov/41228128/
+   DOI: https://doi.org/10.3390/healthcare13212760
+   [Matched: strong_keyword]
+
+73. Fairness of machine learning readmission predictions following open ventral hernia repair.
+   Year: 2025 | Journal: Surgical endoscopy
+   URL: https://pubmed.ncbi.nlm.nih.gov/40624414/
+   DOI: https://doi.org/10.1007/s00464-025-11927-7
+   [Matched: bias+ai]
+
+74. FairICP: identifying biases and increasing transparency at the point of care in post-implementation clinical decision support using inductive conformal prediction.
+   Year: 2025 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/40517328/
+   DOI: https://doi.org/10.1093/jamia/ocaf095
+   [Matched: bias+ai]
+
+75. FairFedMed: Benchmarking Group Fairness in Federated Medical Imaging with FairLoRA.
+   Year: 2025 | Journal: IEEE transactions on medical imaging
+   URL: https://pubmed.ncbi.nlm.nih.gov/41100248/
+   DOI: https://doi.org/10.1109/TMI.2025.3622522
+   [Matched: bias+ai]
+
+76. FairFML: A Unified Approach to Algorithmic Fair Federated Learning with Applications to Reducing Gender Disparities in Cardiac Arrest Outcomes.
+   Year: 2025 | Journal: Studies in health technology and informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40776262/
+   DOI: https://doi.org/10.3233/SHTI251245
+   [Matched: bias+ai]
+
+77. FairDiffusion: Enhancing equity in latent diffusion models via fair Bayesian perturbation.
+   Year: 2025 | Journal: Science advances
+   URL: https://pubmed.ncbi.nlm.nih.gov/40184460/
+   DOI: https://doi.org/10.1126/sciadv.ads4593
+   [Matched: strong_keyword]
+
+78. Fair Text to Medical Image Diffusion Model with Subgroup Distribution Aligned Tuning.
+   Year: 2025 | Journal: Proceedings of SPIE--the International Society for Optical Engineering
+   URL: https://pubmed.ncbi.nlm.nih.gov/40831669/
+   DOI: https://doi.org/10.1117/12.3046450
+   [Matched: bias+ai]
+
+79. Facilitators and Barriers to Increasing Equity in Cystic Fibrosis Newborn Screening Algorithms.
+   Year: 2025 | Journal: Pediatric pulmonology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39704065/
+   DOI: https://doi.org/10.1002/ppul.27449
+   [Matched: strong_keyword]
+
+80. Exploring trade-offs in equitable stroke risk prediction with parity-constrained and race-free models.
+   Year: 2025 | Journal: Artificial intelligence in medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40253926/
+   DOI: https://doi.org/10.1016/j.artmed.2025.103130
+   [Matched: strong_keyword]
+
+81. Exploring biases related to the use of large language models in a multilingual depression corpus.
+   Year: 2025 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/41102216/
+   DOI: https://doi.org/10.1038/s41598-025-19980-x
+   [Matched: bias+ai]
+
+82. Exploring Biases of Large Language Models in the Field of Mental Health: Comparative Questionnaire Study of the Effect of Gender and Sexual Orientation in Anorexia Nervosa and Bulimia Nervosa Case Vignettes.
+   Year: 2025 | Journal: JMIR mental health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40111287/
+   DOI: https://doi.org/10.2196/57986
+   [Matched: bias+ai]
+
+83. Evaluation and Bias Analysis of Large Language Models in Generating Synthetic Electronic Health Records: Comparative Study.
+   Year: 2025 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/40354109/
+   DOI: https://doi.org/10.2196/65317
+   [Matched: bias+ai]
+
+84. Evaluating the Performance and Potential Bias of Predictive Models for Detection of Transthyretin Cardiac Amyloidosis.
+   Year: 2025 | Journal: JACC. Advances
+   URL: https://pubmed.ncbi.nlm.nih.gov/40616933/
+   DOI: https://doi.org/10.1016/j.jacadv.2025.101901
+   [Matched: bias+ai]
+
+85. Evaluating artificial intelligence bias in nephrology: the role of diversity, equity, and inclusion in AI-driven decision-making and ethical regulation.
+   Year: 2025 | Journal: Frontiers in artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/40495929/
+   DOI: https://doi.org/10.3389/frai.2025.1525937
+   [Matched: strong_keyword]
+
+86. Evaluating and mitigating bias in AI-based medical text generation.
+   Year: 2025 | Journal: Nature computational science
+   URL: https://pubmed.ncbi.nlm.nih.gov/40269315/
+   DOI: https://doi.org/10.1038/s43588-025-00789-7
+   [Matched: strong_keyword]
+
+87. Evaluating and addressing demographic disparities in medical large language models: a systematic review.
+   Year: 2025 | Journal: International journal for equity in health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40011901/
+   DOI: https://doi.org/10.1186/s12939-025-02419-0
+   [Matched: bias+ai]
+
+88. Evaluating accountability, transparency, and bias in AI-assisted healthcare decision- making: a qualitative study of healthcare professionals' perspectives in the UK.
+   Year: 2025 | Journal: BMC medical ethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40629303/
+   DOI: https://doi.org/10.1186/s12910-025-01243-z
+   [Matched: strong_keyword]
+
+89. Ethical Implications of Artificial Intelligence in Vaccine Equity: Protocol for Exploring Vaccine Distribution Planning and Scheduling in Pandemics in Low- and Middle-Income Countries.
+   Year: 2025 | Journal: JMIR research protocols
+   URL: https://pubmed.ncbi.nlm.nih.gov/40633920/
+   DOI: https://doi.org/10.2196/76634
+   [Matched: strong_keyword]
+
+90. Ethical AI in medical text generation: balancing innovation with privacy in public health.
+   Year: 2025 | Journal: Frontiers in public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40756387/
+   DOI: https://doi.org/10.3389/fpubh.2025.1583507
+   [Matched: strong_keyword]
+
+91. Equitable hospital length of stay prediction for patients with learning disabilities and multiple long-term conditions using machine learning.
+   Year: 2025 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40026843/
+   DOI: https://doi.org/10.3389/fdgth.2025.1538793
+   [Matched: strong_keyword]
+
+92. Equitable AI: Exploring the role of gender in poverty estimation models using geospatial data.
+   Year: 2025 | Journal: PloS one
+   URL: https://pubmed.ncbi.nlm.nih.gov/40997128/
+   DOI: https://doi.org/10.1371/journal.pone.0332193
+   [Matched: strong_keyword]
+
+93. Enhancing rectal cancer liver metastasis prediction: Magnetic resonance imaging-based radiomics, bias mitigation, and regulatory considerations.
+   Year: 2025 | Journal: World journal of gastrointestinal oncology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39958549/
+   DOI: https://doi.org/10.4251/wjgo.v17.i2.102151
+   [Matched: strong_keyword]
+
+94. Empowering nurses to champion Health equity & BE FAIR: Bias elimination for fair and responsible AI in healthcare.
+   Year: 2025 | Journal: Journal of nursing scholarship : an official publication of Sigma Theta Tau International Honor Society of Nursing
+   URL: https://pubmed.ncbi.nlm.nih.gov/39075715/
+   DOI: https://doi.org/10.1111/jnu.13007
+   [Matched: strong_keyword]
+
+95. Empirical Comparison of Post-processing Debiasing Methods for Machine Learning Classifiers in Healthcare.
+   Year: 2025 | Journal: Journal of healthcare informatics research
+   URL: https://pubmed.ncbi.nlm.nih.gov/40726749/
+   DOI: https://doi.org/10.1007/s41666-025-00196-7
+   [Matched: strong_keyword]
+
+96. Emerging algorithmic bias: fairness drift as the next dimension of model maintenance and sustainability.
+   Year: 2025 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/40079820/
+   DOI: https://doi.org/10.1093/jamia/ocaf039
+   [Matched: strong_keyword]
+
+97. Easy ensemble classifier-group and intersectional fairness and threshold (EEC-GIFT): a fairness-aware machine learning framework for lung cancer screening eligibility using real-world data.
+   Year: 2025 | Journal: JNCI cancer spectrum
+   URL: https://pubmed.ncbi.nlm.nih.gov/40111867/
+   DOI: https://doi.org/10.1093/jncics/pkaf030
+   [Matched: strong_keyword]
+
+98. Disaggregating Health Differences and Disparities With Machine Learning and Observed-to-expected Ratios: Application to Major Lower Limb Amputation.
+   Year: 2025 | Journal: Epidemiology (Cambridge, Mass.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/40631724/
+   DOI: https://doi.org/10.1097/EDE.0000000000001892
+   [Matched: bias+ai]
+
+99. Digital pathways connecting social and biological factors to health outcomes and equity.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40113922/
+   DOI: https://doi.org/10.1038/s41746-025-01564-8
+   [Matched: strong_keyword]
+
+100. Develop and Validate A Fair Machine Learning Model to Indentify Patients with High Care-Continuity in Electronic Health Records Data.
+   Year: 2025 | Journal: medRxiv : the preprint server for health sciences
+   URL: https://pubmed.ncbi.nlm.nih.gov/41292658/
+   DOI: https://doi.org/10.1101/2025.11.11.25339938
+   [Matched: strong_keyword]
+
+101. Demographic inaccuracies and biases in the depiction of patients by artificial intelligence text-to-image generators.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40683994/
+   DOI: https://doi.org/10.1038/s41746-025-01817-6
+   [Matched: bias+ai]
+
+102. Demographic bias of expert-level vision-language foundation models in medical imaging.
+   Year: 2025 | Journal: Science advances
+   URL: https://pubmed.ncbi.nlm.nih.gov/40138420/
+   DOI: https://doi.org/10.1126/sciadv.adq0305
+   [Matched: bias+ai]
+
+103. Contrastive learning enhances fairness in pathology artificial intelligence systems.
+   Year: 2025 | Journal: Cell reports. Medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/41406939/
+   DOI: https://doi.org/10.1016/j.xcrm.2025.102527
+   [Matched: bias+ai]
+
+104. Considerations for evaluating the practical utility of machine learning in suicide risk estimation: the role of cost and equity.
+   Year: 2025 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/41502566/
+   DOI: https://doi.org/10.21203/rs.3.rs-8216032/v1
+   [Matched: strong_keyword]
+
+105. Can AI developers avoid bias in public health applications?
+   Year: 2025 | Journal: Frontiers in public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/41607892/
+   DOI: https://doi.org/10.3389/fpubh.2025.1752729
+   [Matched: bias+ai]
+
+106. Can AI Bridge or Widen Maternal Health Inequities?
+   Year: 2025 | Journal: Public health challenges
+   URL: https://pubmed.ncbi.nlm.nih.gov/40978155/
+   DOI: https://doi.org/10.1002/puh2.70119
+   [Matched: strong_keyword]
+
+107. Building health systems capable of leveraging AI: applying Paul Farmer's 5S framework for equitable global health.
+   Year: 2025 | Journal: BMC global and public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40312417/
+   DOI: https://doi.org/10.1186/s44263-025-00158-6
+   [Matched: strong_keyword]
+
+108. Building competency in artificial intelligence and bias mitigation for nurse scientists and aligned health researchers.
+   Year: 2025 | Journal: Nursing outlook
+   URL: https://pubmed.ncbi.nlm.nih.gov/40318249/
+   DOI: https://doi.org/10.1016/j.outlook.2025.102395
+   [Matched: strong_keyword]
+
+109. Building a Time-Series Model to Predict Hospitalization Risks in Home Health Care: Insights Into Development, Accuracy, and Fairness.
+   Year: 2025 | Journal: Journal of the American Medical Directors Association
+   URL: https://pubmed.ncbi.nlm.nih.gov/39689864/
+   DOI: https://doi.org/10.1016/j.jamda.2024.105417
+   [Matched: bias+ai]
+
+110. Bridging the digital divide: artificial intelligence as a catalyst for health equity in primary care settings.
+   Year: 2025 | Journal: International journal of medical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40706198/
+   DOI: https://doi.org/10.1016/j.ijmedinf.2025.106051
+   [Matched: strong_keyword]
+
+111. Bridging Health Disparities in the Data-Driven World of Artificial Intelligence: A Narrative Review.
+   Year: 2025 | Journal: Journal of racial and ethnic health disparities
+   URL: https://pubmed.ncbi.nlm.nih.gov/38955956/
+   DOI: https://doi.org/10.1007/s40615-024-02057-2
+   [Matched: strong_keyword]
+
+112. Bias recognition and mitigation strategies in artificial intelligence healthcare applications.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40069303/
+   DOI: https://doi.org/10.1038/s41746-025-01503-7
+   [Matched: bias+ai]
+
+113. Bias in vital signs? Machine learning models can learn patients' race or ethnicity from the values of vital signs alone.
+   Year: 2025 | Journal: BMJ health & care informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40639839/
+   DOI: https://doi.org/10.1136/bmjhci-2024-101098
+   [Matched: bias+ai]
+
+114. Bias in artificial intelligence for medical imaging: fundamentals, detection, avoidance, mitigation, challenges, ethics, and prospects.
+   Year: 2025 | Journal: Diagnostic and interventional radiology (Ankara, Turkey)
+   URL: https://pubmed.ncbi.nlm.nih.gov/38953330/
+   DOI: https://doi.org/10.4274/dir.2024.242854
+   [Matched: strong_keyword]
+
+115. Bias in AI systems: integrating formal and socio-technical approaches.
+   Year: 2025 | Journal: Frontiers in big data
+   URL: https://pubmed.ncbi.nlm.nih.gov/41584908/
+   DOI: https://doi.org/10.3389/fdata.2025.1686452
+   [Matched: strong_keyword]
+
+116. Bias Mitigation in Primary Health Care Artificial Intelligence Models: Scoping Review.
+   Year: 2025 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/39773888/
+   DOI: https://doi.org/10.2196/60269
+   [Matched: strong_keyword]
+
+117. Bias Detection in Histology Images Using Explainable AI and Image Darkness Assessment.
+   Year: 2025 | Journal: Studies in health technology and informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40380414/
+   DOI: https://doi.org/10.3233/SHTI250302
+   [Matched: strong_keyword]
+
+118. Bias Amplification to Facilitate the Systematic Evaluation of Bias Mitigation Methods.
+   Year: 2025 | Journal: IEEE journal of biomedical and health informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39499598/
+   DOI: https://doi.org/10.1109/JBHI.2024.3491946
+   [Matched: strong_keyword]
+
+119. Beyond the Algorithm: A Perspective on Tackling Bias and Cultural Sensitivity in AI-Guided Aesthetic Standards for Cosmetic Surgery in the Middle East and North Africa (MENA) Region.
+   Year: 2025 | Journal: Clinical, cosmetic and investigational dermatology
+   URL: https://pubmed.ncbi.nlm.nih.gov/40927497/
+   DOI: https://doi.org/10.2147/CCID.S543045
+   [Matched: bias+ai]
+
+120. Beyond accuracy: a framework for evaluating algorithmic bias and performance, applied to automated sleep scoring.
+   Year: 2025 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/40595988/
+   DOI: https://doi.org/10.1038/s41598-025-06019-4
+   [Matched: strong_keyword]
+
+121. Assessment of demographic bias in retinal age prediction machine learning models.
+   Year: 2025 | Journal: Frontiers in artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/41141904/
+   DOI: https://doi.org/10.3389/frai.2025.1653153
+   [Matched: bias+ai]
+
+122. Assessing Algorithmic Fairness With a Multimodal Artificial Intelligence Model in Men of African and Non-African Origin on NRG Oncology Prostate Cancer Phase III Trials.
+   Year: 2025 | Journal: JCO clinical cancer informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40344545/
+   DOI: https://doi.org/10.1200/CCI-24-00284
+   [Matched: strong_keyword]
+
+123. Artificial Intelligence-Driven Risk Stratification in Chronic Kidney Disease Progression: Minimizing Bias via Race-Specific Algorithms.
+   Year: 2025 | Journal: Cureus
+   URL: https://pubmed.ncbi.nlm.nih.gov/41487722/
+   DOI: https://doi.org/10.7759/cureus.98319
+   [Matched: bias+ai]
+
+124. Artificial Intelligence in Cancer Care: Addressing Challenges and Health Equity.
+   Year: 2025 | Journal: Oncology (Williston Park, N.Y.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/40266052/
+   DOI: https://doi.org/10.46883/2025.25921037
+   [Matched: strong_keyword]
+
+125. Artificial Intelligence and Cancer Health Equity: Bridging the Divide or Widening the Gap.
+   Year: 2025 | Journal: Current oncology reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/39753817/
+   DOI: https://doi.org/10.1007/s11912-024-01627-1
+   [Matched: strong_keyword]
+
+126. Algorithmic individual fairness and healthcare: a scoping review.
+   Year: 2025 | Journal: JAMIA open
+   URL: https://pubmed.ncbi.nlm.nih.gov/39737346/
+   DOI: https://doi.org/10.1093/jamiaopen/ooae149
+   [Matched: bias+ai]
+
+127. Algorithmic bias in public health AI: a silent threat to equity in low-resource settings.
+   Year: 2025 | Journal: Frontiers in public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40771228/
+   DOI: https://doi.org/10.3389/fpubh.2025.1643180
+   [Matched: strong_keyword]
+
+128. Advancing equity in generative AI dermatology requires representative data and transparent evaluation.
+   Year: 2025 | Journal: Journal of the European Academy of Dermatology and Venereology : JEADV
+   URL: https://pubmed.ncbi.nlm.nih.gov/40965098/
+   DOI: https://doi.org/10.1111/jdv.70052
+   [Matched: strong_keyword]
+
+129. Accounting for racial bias and social determinants of health in a model of hypertension control.
+   Year: 2025 | Journal: BMC medical informatics and decision making
+   URL: https://pubmed.ncbi.nlm.nih.gov/39901187/
+   DOI: https://doi.org/10.1186/s12911-025-02873-4
+   [Matched: strong_keyword]
+
+130. AI-driven healthcare: Fairness in AI healthcare: A survey.
+   Year: 2025 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/40392801/
+   DOI: https://doi.org/10.1371/journal.pdig.0000864
+   [Matched: bias+ai]
+
+131. AI and Healthcare Disparities: Lessons from a Cautionary Tale in Knee Radiology.
+   Year: 2025 | Journal: The Journal of medicine and philosophy
+   URL: https://pubmed.ncbi.nlm.nih.gov/40971664/
+   DOI: https://doi.org/10.1093/jmp/jhaf020
+   [Matched: strong_keyword]
+
+132. AI Bias and Confounding Risk in Health Feature Engineering for Machine Learning Classification Task.
+   Year: 2025 | Journal: Studies in health technology and informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/40775971/
+   DOI: https://doi.org/10.3233/SHTI250953
+   [Matched: strong_keyword]
+
+133. A scoping review and evidence gap analysis of clinical AI fairness.
+   Year: 2025 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40517148/
+   DOI: https://doi.org/10.1038/s41746-025-01667-2
+   [Matched: strong_keyword]
+
+134. A fairness-aware machine learning framework for maternal health in Ghana: integrating explainability, bias mitigation, and causal inference for ethical AI deployment.
+   Year: 2025 | Journal: BioData mining
+   URL: https://pubmed.ncbi.nlm.nih.gov/41351059/
+   DOI: https://doi.org/10.1186/s13040-025-00505-1
+   [Matched: strong_keyword]
+
+135. A fair machine learning model to predict flares of systemic lupus erythematosus.
+   Year: 2025 | Journal: JAMIA open
+   URL: https://pubmed.ncbi.nlm.nih.gov/40718760/
+   DOI: https://doi.org/10.1093/jamiaopen/ooaf072
+   [Matched: strong_keyword]
+
+136. A Systematic Fairness Evaluation of Racial Bias in Alzheimer's Disease Diagnosis Using Machine Learning Models.
+   Year: 2025 | Journal: bioRxiv : the preprint server for biology
+   URL: https://pubmed.ncbi.nlm.nih.gov/41256428/
+   DOI: https://doi.org/10.1101/2025.09.30.678854
+   [Matched: strong_keyword]
+
+137. What Goes In, Must Come Out: Generative Artificial Intelligence Does Not Present Algorithmic Bias Across Race and Gender in Medical Residency Specialties.
+   Year: 2024 | Journal: Cureus
+   URL: https://pubmed.ncbi.nlm.nih.gov/38510858/
+   DOI: https://doi.org/10.7759/cureus.54448
+   [Matched: strong_keyword]
+
+138. Validation, bias assessment, and optimization of the UNAFIED 2-year risk prediction model for undiagnosed atrial fibrillation using national electronic health data.
+   Year: 2024 | Journal: Heart rhythm O2
+   URL: https://pubmed.ncbi.nlm.nih.gov/39803613/
+   DOI: https://doi.org/10.1016/j.hroo.2024.09.010
+   [Matched: bias+ai]
+
+139. Using artificial intelligence to promote equitable care for inpatients with language barriers and complex medical needs: clinical stakeholder perspectives.
+   Year: 2024 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/38099504/
+   DOI: https://doi.org/10.1093/jamia/ocad224
+   [Matched: strong_keyword]
+
+140. Unveiling biases of artificial intelligence in healthcare: Navigating the promise and pitfalls.
+   Year: 2024 | Journal: Injury
+   URL: https://pubmed.ncbi.nlm.nih.gov/38246015/
+   DOI: https://doi.org/10.1016/j.injury.2024.111358
+   [Matched: bias+ai]
+
+141. Unmasking bias in artificial intelligence: a systematic review of bias detection and mitigation strategies in electronic health record-based models.
+   Year: 2024 | Journal: ArXiv
+   URL: https://pubmed.ncbi.nlm.nih.gov/39010875/
+   [Matched: strong_keyword]
+
+142. Unmasking bias in artificial intelligence: a systematic review of bias detection and mitigation strategies in electronic health record-based models.
+   Year: 2024 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/38520723/
+   DOI: https://doi.org/10.1093/jamia/ocae060
+   [Matched: strong_keyword]
+
+143. Understanding skin color bias in deep learning-based skin lesion segmentation.
+   Year: 2024 | Journal: Computer methods and programs in biomedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38290289/
+   DOI: https://doi.org/10.1016/j.cmpb.2024.108044
+   [Matched: strong_keyword]
+
+144. Understanding and Mitigating Bias in Imaging Artificial Intelligence.
+   Year: 2024 | Journal: Radiographics : a review publication of the Radiological Society of North America, Inc
+   URL: https://pubmed.ncbi.nlm.nih.gov/38635456/
+   DOI: https://doi.org/10.1148/rg.230067
+   [Matched: bias+ai]
+
+145. Understanding Bias in Artificial Intelligence: A Practice Perspective.
+   Year: 2024 | Journal: AJNR. American journal of neuroradiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38123951/
+   DOI: https://doi.org/10.3174/ajnr.A8070
+   [Matched: strong_keyword]
+
+146. Unbiasing Fairness Evaluation of Radiology AI Model.
+   Year: 2024 | Journal: Meta-radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38947177/
+   DOI: https://doi.org/10.1016/j.metrad.2024.100084
+   [Matched: bias+ai]
+
+147. Trans-Balance: Reducing demographic disparity for prediction models in the presence of class imbalance.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38070817/
+   DOI: https://doi.org/10.1016/j.jbi.2023.104532
+   [Matched: bias+ai]
+
+148. Towards objective and systematic evaluation of bias in artificial intelligence for medical imaging.
+   Year: 2024 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/38942737/
+   DOI: https://doi.org/10.1093/jamia/ocae165
+   [Matched: strong_keyword]
+
+149. The risks and benefits of using AI for diagnosis: beware of unconscious bias.
+   Year: 2024 | Journal: Multiple sclerosis and related disorders
+   URL: https://pubmed.ncbi.nlm.nih.gov/39236488/
+   DOI: https://doi.org/10.1016/j.msard.2024.105853
+   [Matched: bias+ai]
+
+150. Targeting Machine Learning and Artificial Intelligence Algorithms in Health Care to Reduce Bias and Improve Population Health.
+   Year: 2024 | Journal: The Milbank quarterly
+   URL: https://pubmed.ncbi.nlm.nih.gov/39116187/
+   DOI: https://doi.org/10.1111/1468-0009.12712
+   [Matched: bias+ai]
+
+151. Sociodemographic biases in a commercial AI model for intracranial hemorrhage detection.
+   Year: 2024 | Journal: Emergency radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39034382/
+   DOI: https://doi.org/10.1007/s10140-024-02270-w
+   [Matched: bias+ai]
+
+152. Socio-ethical challenges and opportunities for advancing diversity, equity, and inclusion in digital medicine.
+   Year: 2024 | Journal: Digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39372817/
+   DOI: https://doi.org/10.1177/20552076241277705
+   [Matched: strong_keyword]
+
+153. Sex-Based Performance Disparities in Machine Learning Algorithms for Cardiac Disease Prediction: Exploratory Study.
+   Year: 2024 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/39186324/
+   DOI: https://doi.org/10.2196/46936
+   [Matched: strong_keyword]
+
+154. Preserving fairness and diagnostic accuracy in private large-scale AI models for medical imaging.
+   Year: 2024 | Journal: Communications medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38486100/
+   DOI: https://doi.org/10.1038/s43856-024-00462-6
+   [Matched: bias+ai]
+
+155. Preoperative prediction model for risk of readmission after total joint replacement surgery: a random forest approach leveraging NLP and unfairness mitigation for improved patient care and cost-effectiveness.
+   Year: 2024 | Journal: Journal of orthopaedic surgery and research
+   URL: https://pubmed.ncbi.nlm.nih.gov/38725085/
+   DOI: https://doi.org/10.1186/s13018-024-04774-0
+   [Matched: bias+ai]
+
+156. Predicting Prenatal Depression and Assessing Model Bias Using Machine Learning Models.
+   Year: 2024 | Journal: Biological psychiatry global open science
+   URL: https://pubmed.ncbi.nlm.nih.gov/39399154/
+   DOI: https://doi.org/10.1016/j.bpsgos.2024.100376
+   [Matched: strong_keyword]
+
+157. Participant flow diagrams for health equity in AI.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38548006/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104631
+   [Matched: strong_keyword]
+
+158. Mitigating the risk of artificial intelligence bias in cardiovascular care.
+   Year: 2024 | Journal: The Lancet. Digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39214762/
+   DOI: https://doi.org/10.1016/S2589-7500(24)00155-9
+   [Matched: bias+ai]
+
+159. Mitigating machine learning bias between high income and low-middle income countries for enhanced model fairness and generalizability.
+   Year: 2024 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/38858466/
+   DOI: https://doi.org/10.1038/s41598-024-64210-5
+   [Matched: strong_keyword]
+
+160. Mitigating Algorithmic Bias in AI-Driven Cardiovascular Imaging for Fairer Diagnostics.
+   Year: 2024 | Journal: Diagnostics (Basel, Switzerland)
+   URL: https://pubmed.ncbi.nlm.nih.gov/39682584/
+   DOI: https://doi.org/10.3390/diagnostics14232675
+   [Matched: strong_keyword]
+
+161. Minimizing bias when using artificial intelligence in critical care medicine.
+   Year: 2024 | Journal: Journal of critical care
+   URL: https://pubmed.ncbi.nlm.nih.gov/38552451/
+   DOI: https://doi.org/10.1016/j.jcrc.2024.154796
+   [Matched: bias+ai]
+
+162. Measuring algorithmic bias to analyze the reliability of AI tools that predict depression risk using smartphone sensed-behavioral data.
+   Year: 2024 | Journal: Npj mental health research
+   URL: https://pubmed.ncbi.nlm.nih.gov/38649446/
+   DOI: https://doi.org/10.1038/s44184-024-00057-y
+   [Matched: strong_keyword]
+
+163. Measuring algorithmic bias to analyze the reliability of AI tools that predict depression risk using smartphone sensed-behavioral data.
+   Year: 2024 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/38746448/
+   DOI: https://doi.org/10.21203/rs.3.rs-3044613/v1
+   [Matched: strong_keyword]
+
+164. Measuring Implicit Bias in ICU Notes Using Word-Embedding Neural Network Models.
+   Year: 2024 | Journal: Chest
+   URL: https://pubmed.ncbi.nlm.nih.gov/38199323/
+   DOI: https://doi.org/10.1016/j.chest.2023.12.031
+   [Matched: bias+ai]
+
+165. Machine Learning in Health Care: Ethical Considerations Tied to Privacy, Interpretability, and Bias.
+   Year: 2024 | Journal: North Carolina medical journal
+   URL: https://pubmed.ncbi.nlm.nih.gov/39466090/
+   DOI: https://doi.org/10.18043/001c.120562
+   [Matched: bias+ai]
+
+166. Machine Learning and Bias in Medical Imaging: Opportunities and Challenges.
+   Year: 2024 | Journal: Circulation. Cardiovascular imaging
+   URL: https://pubmed.ncbi.nlm.nih.gov/38377237/
+   DOI: https://doi.org/10.1161/CIRCIMAGING.123.015495
+   [Matched: strong_keyword]
+
+167. Leveraging large language models to foster equity in healthcare.
+   Year: 2024 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/38511501/
+   DOI: https://doi.org/10.1093/jamia/ocae055
+   [Matched: strong_keyword]
+
+168. Leveraging Temporal Trends for Training Contextual Word Embeddings to Address Bias in Biomedical Applications: Development Study.
+   Year: 2024 | Journal: JMIR AI
+   URL: https://pubmed.ncbi.nlm.nih.gov/39357045/
+   DOI: https://doi.org/10.2196/49546
+   [Matched: bias+ai]
+
+169. Integrating Catholic Social Teaching with AI Ethics to Address Inequity in AI Healthcare.
+   Year: 2024 | Journal: Journal of religion and health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39312105/
+   DOI: https://doi.org/10.1007/s10943-024-02140-2
+   [Matched: strong_keyword]
+
+170. Improving Fairness of Automated Chest Radiograph Diagnosis by Contrastive Learning.
+   Year: 2024 | Journal: Radiology. Artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/39166973/
+   DOI: https://doi.org/10.1148/ryai.230342
+   [Matched: bias+ai]
+
+171. Improving Fairness in Chest X-Ray Interpretation Models Using Attention-Driven Masked Image Modeling.
+   Year: 2024 | Journal: Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+   URL: https://pubmed.ncbi.nlm.nih.gov/40039759/
+   DOI: https://doi.org/10.1109/EMBC53108.2024.10782563
+   [Matched: bias+ai]
+
+172. Health equity assessment of machine learning performance (HEAL): a framework and dermatology AI model case study.
+   Year: 2024 | Journal: EClinicalMedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38685924/
+   DOI: https://doi.org/10.1016/j.eclinm.2024.102479
+   [Matched: strong_keyword]
+
+173. Guidance for unbiased predictive information for healthcare decision-making and equity (GUIDE): considerations when race may be a prognostic factor.
+   Year: 2024 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/39427028/
+   DOI: https://doi.org/10.1038/s41746-024-01245-y
+   [Matched: strong_keyword]
+
+174. Fairness of artificial intelligence in healthcare: review and recommendations.
+   Year: 2024 | Journal: Japanese journal of radiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/37540463/
+   DOI: https://doi.org/10.1007/s11604-023-01474-3
+   [Matched: bias+ai]
+
+175. Fairness in Predicting Cancer Mortality Across Racial Subgroups.
+   Year: 2024 | Journal: JAMA network open
+   URL: https://pubmed.ncbi.nlm.nih.gov/38985468/
+   DOI: https://doi.org/10.1001/jamanetworkopen.2024.21290
+   [Matched: bias+ai]
+
+176. Fair prediction of 2-year stroke risk in patients with atrial fibrillation.
+   Year: 2024 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/38960729/
+   DOI: https://doi.org/10.1093/jamia/ocae170
+   [Matched: strong_keyword]
+
+177. FAIM: Fairness-aware interpretable modeling for trustworthy machine learning in healthcare.
+   Year: 2024 | Journal: Patterns (New York, N.Y.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/39569213/
+   DOI: https://doi.org/10.1016/j.patter.2024.101059
+   [Matched: strong_keyword]
+
+178. Evaluating the fairness and accuracy of machine learning-based predictions of clinical outcomes after anatomic and reverse total shoulder arthroplasty.
+   Year: 2024 | Journal: Journal of shoulder and elbow surgery
+   URL: https://pubmed.ncbi.nlm.nih.gov/37703989/
+   DOI: https://doi.org/10.1016/j.jse.2023.08.005
+   [Matched: bias+ai]
+
+179. Evaluating machine learning model bias and racial disparities in non-small cell lung cancer using SEER registry data.
+   Year: 2024 | Journal: Health care management science
+   URL: https://pubmed.ncbi.nlm.nih.gov/39495385/
+   DOI: https://doi.org/10.1007/s10729-024-09691-6
+   [Matched: strong_keyword]
+
+180. Evaluating gender bias in ML-based clinical risk prediction models: A study on multiple use cases at different hospitals.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39009174/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104692
+   [Matched: strong_keyword]
+
+181. Evaluating EHR-Integrated Digital Technologies for Medication-Related Outcomes and Health Equity in Hospitalised Adults: A Scoping Review.
+   Year: 2024 | Journal: Journal of medical systems
+   URL: https://pubmed.ncbi.nlm.nih.gov/39174723/
+   DOI: https://doi.org/10.1007/s10916-024-02097-5
+   [Matched: strong_keyword]
+
+182. Evaluating Bias-Mitigated Predictive Models of Perinatal Mood and Anxiety Disorders.
+   Year: 2024 | Journal: JAMA network open
+   URL: https://pubmed.ncbi.nlm.nih.gov/39625723/
+   DOI: https://doi.org/10.1001/jamanetworkopen.2024.38152
+   [Matched: bias+ai]
+
+183. Evaluating Algorithmic Bias in 30-Day Hospital Readmission Models: Retrospective Analysis.
+   Year: 2024 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/38422347/
+   DOI: https://doi.org/10.2196/47125
+   [Matched: strong_keyword]
+
+184. Equity in Digital Mental Health Interventions in the United States: Where to Next?
+   Year: 2024 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/39316436/
+   DOI: https://doi.org/10.2196/59939
+   [Matched: strong_keyword]
+
+185. Equity and AI governance at academic medical centers.
+   Year: 2024 | Journal: The American journal of managed care
+   URL: https://pubmed.ncbi.nlm.nih.gov/38820189/
+   DOI: https://doi.org/10.37765/ajmc.2024.89555
+   [Matched: strong_keyword]
+
+186. Equitable Artificial Intelligence in Obstetrics, Maternal-Fetal Medicine, and Neonatology.
+   Year: 2024 | Journal: Obstetrics and gynecology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38547488/
+   DOI: https://doi.org/10.1097/AOG.0000000000005563
+   [Matched: strong_keyword]
+
+187. Ensuring Model Fairness via Stratified Training: TP53 Mutation Prediction with Estrogen Receptor Stratification in Breast Histopathology.
+   Year: 2024 | Journal: Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+   URL: https://pubmed.ncbi.nlm.nih.gov/40039878/
+   DOI: https://doi.org/10.1109/EMBC53108.2024.10782012
+   [Matched: strong_keyword]
+
+188. Ensuring Appropriate Representation in Artificial Intelligence-Generated Medical Imagery: Protocol for a Methodological Approach to Address Skin Tone Bias.
+   Year: 2024 | Journal: JMIR AI
+   URL: https://pubmed.ncbi.nlm.nih.gov/39602221/
+   DOI: https://doi.org/10.2196/58275
+   [Matched: strong_keyword]
+
+189. Enhancing Clinical Decision Support in Nephrology: Addressing Algorithmic Bias Through Artificial Intelligence Governance.
+   Year: 2024 | Journal: American journal of kidney diseases : the official journal of the National Kidney Foundation
+   URL: https://pubmed.ncbi.nlm.nih.gov/38851444/
+   DOI: https://doi.org/10.1053/j.ajkd.2024.04.008
+   [Matched: strong_keyword]
+
+190. Efficient adversarial debiasing with concept activation vector - Medical image case-studies.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38043883/
+   DOI: https://doi.org/10.1016/j.jbi.2023.104548
+   [Matched: strong_keyword]
+
+191. Drop the shortcuts: image augmentation improves fairness and decreases AI detection of race and other demographics from medical images.
+   Year: 2024 | Journal: EBioMedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38471396/
+   DOI: https://doi.org/10.1016/j.ebiom.2024.105047
+   [Matched: bias+ai]
+
+192. Developing a fair and interpretable representation of the clock drawing test for mitigating low education and racial bias.
+   Year: 2024 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/39075127/
+   DOI: https://doi.org/10.1038/s41598-024-68481-w
+   [Matched: strong_keyword]
+
+193. Deep learning methods for 3D magnetic resonance image denoising, bias field and motion artifact correction: a comprehensive review.
+   Year: 2024 | Journal: Physics in medicine and biology
+   URL: https://pubmed.ncbi.nlm.nih.gov/39569887/
+   DOI: https://doi.org/10.1088/1361-6560/ad94c7
+   [Matched: bias+ai]
+
+194. De-biasing the bias: methods for improving disparity assessments with noisy group measurements.
+   Year: 2024 | Journal: Biometrics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39731446/
+   DOI: https://doi.org/10.1093/biomtc/ujae155
+   [Matched: strong_keyword]
+
+195. Conceptualizing bias in EHR data: A case study in performance disparities by demographic subgroups for a pediatric obesity incidence classifier.
+   Year: 2024 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39441784/
+   DOI: https://doi.org/10.1371/journal.pdig.0000642
+   [Matched: strong_keyword]
+
+196. Comparing survival of older ovarian cancer patients treated with neoadjuvant chemotherapy versus primary cytoreductive surgery: Reducing bias through machine learning.
+   Year: 2024 | Journal: Gynecologic oncology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38554626/
+   DOI: https://doi.org/10.1016/j.ygyno.2024.03.016
+   [Matched: bias+ai]
+
+197. Challenges in Reducing Bias Using Post-Processing Fairness for Breast Cancer Stage Classification with Deep Learning.
+   Year: 2024 | Journal: Algorithms
+   URL: https://pubmed.ncbi.nlm.nih.gov/38962581/
+   DOI: https://doi.org/10.3390/a17040141
+   [Matched: bias+ai]
+
+198. Causal fairness assessment of treatment allocation with electronic health records.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38782170/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104656
+   [Matched: bias+ai]
+
+199. Bias reduction using combined stain normalization and augmentation for AI-based classification of histological images.
+   Year: 2024 | Journal: Computers in biology and medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38387381/
+   DOI: https://doi.org/10.1016/j.compbiomed.2024.108130
+   [Matched: bias+ai]
+
+200. Bias in machine learning applications to address non-communicable diseases at a population-level: a scoping review.
+   Year: 2024 | Journal: BMC public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39732655/
+   DOI: https://doi.org/10.1186/s12889-024-21081-9
+   [Matched: strong_keyword]
+
+201. Bias in Prediction Models to Identify Patients With Colorectal Cancer at High Risk for Readmission After Resection.
+   Year: 2024 | Journal: JCO clinical cancer informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39831110/
+   DOI: https://doi.org/10.1200/CCI.23.00194
+   [Matched: bias+ai]
+
+202. Assessment of bias in scoring of AI-based radiotherapy segmentation and planning studies using modified TRIPOD and PROBAST guidelines as an example.
+   Year: 2024 | Journal: Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38432311/
+   DOI: https://doi.org/10.1016/j.radonc.2024.110196
+   [Matched: bias+ai]
+
+203. Assessing the documentation of publicly available medical image and signal datasets and their impact on bias using the BEAMRAD tool.
+   Year: 2024 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/39738436/
+   DOI: https://doi.org/10.1038/s41598-024-83218-5
+   [Matched: bias+ai]
+
+204. Assessing racial bias in healthcare predictive models: Practical lessons from an empirical evaluation of 30-day hospital readmission models.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38925281/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104683
+   [Matched: strong_keyword]
+
+205. Assessing fairness in machine learning models: A study of racial bias using matched counterparts in mortality prediction for patients with chronic diseases.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38876453/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104677
+   [Matched: strong_keyword]
+
+206. Artificial Intelligence to Promote Racial and Ethnic Cardiovascular Health Equity.
+   Year: 2024 | Journal: Current cardiovascular risk reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/40144330/
+   DOI: https://doi.org/10.1007/s12170-024-00745-6
+   [Matched: strong_keyword]
+
+207. Analyzing the Impact of Personalization on Fairness in Federated Learning for Healthcare.
+   Year: 2024 | Journal: Journal of healthcare informatics research
+   URL: https://pubmed.ncbi.nlm.nih.gov/38681759/
+   DOI: https://doi.org/10.1007/s41666-024-00164-7
+   [Matched: bias+ai]
+
+208. Analyzing Racial Differences in Imaging Joint Replacement Registries Using Generative Artificial Intelligence: Advancing Orthopaedic Data Equity.
+   Year: 2024 | Journal: Arthroplasty today
+   URL: https://pubmed.ncbi.nlm.nih.gov/39376670/
+   DOI: https://doi.org/10.1016/j.artd.2024.101503
+   [Matched: strong_keyword]
+
+209. Algorithmic discrimination and health equity.
+   Year: 2024 | Journal: 
+   URL: https://pubmed.ncbi.nlm.nih.gov/40245232/
+   DOI: https://doi.org/10.4337/9781802205657.ch06
+   [Matched: strong_keyword]
+
+210. Algorithmic Individual Fairness and Healthcare: A Scoping Review.
+   Year: 2024 | Journal: medRxiv : the preprint server for health sciences
+   URL: https://pubmed.ncbi.nlm.nih.gov/38585746/
+   DOI: https://doi.org/10.1101/2024.03.25.24304853
+   [Matched: bias+ai]
+
+211. Advancing equitable and personalized cancer care: Novel applications and priorities of artificial intelligence for fairness and inclusivity in the patient care workflow.
+   Year: 2024 | Journal: European journal of cancer (Oxford, England : 1990)
+   URL: https://pubmed.ncbi.nlm.nih.gov/38141549/
+   DOI: https://doi.org/10.1016/j.ejca.2023.113504
+   [Matched: strong_keyword]
+
+212. Addressing AI Algorithmic Bias in Health Care.
+   Year: 2024 | Journal: JAMA
+   URL: https://pubmed.ncbi.nlm.nih.gov/39230911/
+   DOI: https://doi.org/10.1001/jama.2024.13486
+   [Matched: strong_keyword]
+
+213. Accelerating health disparities research with artificial intelligence.
+   Year: 2024 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/38322109/
+   DOI: https://doi.org/10.3389/fdgth.2024.1330160
+   [Matched: strong_keyword]
+
+214. AI in Biomedicine-A Forward-Looking Perspective on Health Equity.
+   Year: 2024 | Journal: International journal of environmental research and public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/39767481/
+   DOI: https://doi.org/10.3390/ijerph21121642
+   [Matched: strong_keyword]
+
+215. A toolbox for surfacing health equity harms and biases in large language models.
+   Year: 2024 | Journal: Nature medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/39313595/
+   DOI: https://doi.org/10.1038/s41591-024-03258-2
+   [Matched: strong_keyword]
+
+216. A survey of recent methods for addressing AI fairness and bias in biomedicine.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38677633/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104646
+   [Matched: strong_keyword]
+
+217. A survey of recent methods for addressing AI fairness and bias in biomedicine.
+   Year: 2024 | Journal: ArXiv
+   URL: https://pubmed.ncbi.nlm.nih.gov/38529077/
+   [Matched: strong_keyword]
+
+218. A scoping review of fair machine learning techniques when using real-world data.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38452862/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104622
+   [Matched: strong_keyword]
+
+219. A roadmap to artificial intelligence (AI): Methods for designing and building AI ready data to promote fairness.
+   Year: 2024 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/38740316/
+   DOI: https://doi.org/10.1016/j.jbi.2024.104654
+   [Matched: bias+ai]
+
+220. A comprehensive and bias-free machine learning approach for risk prediction of preeclampsia with severe features in a nulliparous study cohort.
+   Year: 2024 | Journal: BMC pregnancy and childbirth
+   URL: https://pubmed.ncbi.nlm.nih.gov/39716098/
+   DOI: https://doi.org/10.1186/s12884-024-06988-w
+   [Matched: bias+ai]
+
+221. A Clinician's Guide to Understanding Bias in Critical Clinical Prediction Models.
+   Year: 2024 | Journal: Critical care clinics
+   URL: https://pubmed.ncbi.nlm.nih.gov/39218488/
+   DOI: https://doi.org/10.1016/j.ccc.2024.05.011
+   [Matched: bias+ai]
+
+222. (Predictable) performance bias in unsupervised anomaly detection.
+   Year: 2024 | Journal: EBioMedicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38335791/
+   DOI: https://doi.org/10.1016/j.ebiom.2024.105002
+   [Matched: bias+ai]
+
+223. Understanding Biases and Disparities in Radiology AI Datasets: A Review.
+   Year: 2023 | Journal: Journal of the American College of Radiology : JACR
+   URL: https://pubmed.ncbi.nlm.nih.gov/37454752/
+   DOI: https://doi.org/10.1016/j.jacr.2023.06.015
+   [Matched: bias+ai]
+
+224. Toward fairness in artificial intelligence for medical image analysis: identification and mitigation of potential biases in the roadmap from data collection to model deployment.
+   Year: 2023 | Journal: Journal of medical imaging (Bellingham, Wash.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/37125409/
+   DOI: https://doi.org/10.1117/1.JMI.10.6.061104
+   [Matched: bias+ai]
+
+225. Toward MR protocol-agnostic, unbiased brain age predicted from clinical-grade MRIs.
+   Year: 2023 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/37950024/
+   DOI: https://doi.org/10.1038/s41598-023-47021-y
+   [Matched: bias+ai]
+
+226. Toward MR protocol-agnostic, bias-corrected brain age predicted from clinical-grade MRIs.
+   Year: 2023 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/37609150/
+   DOI: https://doi.org/10.21203/rs.3.rs-3229072/v1
+   [Matched: bias+ai]
+
+227. Strategies to Improve the Impact of Artificial Intelligence on Health Equity: Scoping Review.
+   Year: 2023 | Journal: JMIR AI
+   URL: https://pubmed.ncbi.nlm.nih.gov/38875587/
+   DOI: https://doi.org/10.2196/42936
+   [Matched: strong_keyword]
+
+228. Risk of Bias in Chest Radiography Deep Learning Foundation Models.
+   Year: 2023 | Journal: Radiology. Artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/38074789/
+   DOI: https://doi.org/10.1148/ryai.230060
+   [Matched: bias+ai]
+
+229. Risk of Bias Mitigation for Vulnerable and Diverse Groups in Community-Based Primary Health Care Artificial Intelligence Models: Protocol for a Rapid Review.
+   Year: 2023 | Journal: JMIR research protocols
+   URL: https://pubmed.ncbi.nlm.nih.gov/37358896/
+   DOI: https://doi.org/10.2196/46684
+   [Matched: strong_keyword]
+
+230. Removing Biases in Communication of Severity Assessments of Intimate Partner Violence: Model Development and Evaluation.
+   Year: 2023 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/37115589/
+   DOI: https://doi.org/10.2196/43499
+   [Matched: bias+ai]
+
+231. Predictive care: a protocol for a computational ethnographic approach to building fair models of inpatient violence in emergency psychiatry.
+   Year: 2023 | Journal: BMJ open
+   URL: https://pubmed.ncbi.nlm.nih.gov/37185650/
+   DOI: https://doi.org/10.1136/bmjopen-2022-069255
+   [Matched: bias+ai]
+
+232. Post-Processing Fairness Evaluation of Federated Models: An Unsupervised Approach in Healthcare.
+   Year: 2023 | Journal: IEEE/ACM transactions on computational biology and bioinformatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/37097792/
+   DOI: https://doi.org/10.1109/TCBB.2023.3269767
+   [Matched: bias+ai]
+
+233. Occupational Safety and Health Equity Impacts of Artificial Intelligence: A Scoping Review.
+   Year: 2023 | Journal: International journal of environmental research and public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/37444068/
+   DOI: https://doi.org/10.3390/ijerph20136221
+   [Matched: strong_keyword]
+
+234. Misguided Artificial Intelligence: How Racial Bias is Built Into Clinical Models.
+   Year: 2023 | Journal: The Brown journal of hospital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/40046549/
+   DOI: https://doi.org/10.56305/001c.38021
+   [Matched: strong_keyword]
+
+235. Improving Fairness in AI Models on Electronic Health Records: The Case for Federated Learning Methods.
+   Year: 2023 | Journal: FAccT '23 : Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency. Association for Computing Machinery
+   URL: https://pubmed.ncbi.nlm.nih.gov/37990734/
+   DOI: https://doi.org/10.1145/3593013.3594102
+   [Matched: bias+ai]
+
+236. Human-Centered Design to Address Biases in Artificial Intelligence.
+   Year: 2023 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/36961506/
+   DOI: https://doi.org/10.2196/43251
+   [Matched: bias+ai]
+
+237. Health Equity in Clinical Research Informatics.
+   Year: 2023 | Journal: Yearbook of medical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/37414033/
+   DOI: https://doi.org/10.1055/s-0043-1768720
+   [Matched: strong_keyword]
+
+238. Guiding Principles to Address the Impact of Algorithm Bias on Racial and Ethnic Disparities in Health and Health Care.
+   Year: 2023 | Journal: JAMA network open
+   URL: https://pubmed.ncbi.nlm.nih.gov/38100101/
+   DOI: https://doi.org/10.1001/jamanetworkopen.2023.45050
+   [Matched: strong_keyword]
+
+239. Gender Bias When Using Artificial Intelligence to Assess Anorexia Nervosa on Social Media: Data-Driven Study.
+   Year: 2023 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/37289496/
+   DOI: https://doi.org/10.2196/45184
+   [Matched: strong_keyword]
+
+240. Fairness and generalisability in deep learning of retinopathy of prematurity screening algorithms: a literature review.
+   Year: 2023 | Journal: BMJ open ophthalmology
+   URL: https://pubmed.ncbi.nlm.nih.gov/37558406/
+   DOI: https://doi.org/10.1136/bmjophth-2022-001216
+   [Matched: bias+ai]
+
+241. Fair and equitable AI in biomedical research and healthcare: Social science perspectives.
+   Year: 2023 | Journal: Artificial intelligence in medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/37783540/
+   DOI: https://doi.org/10.1016/j.artmed.2023.102658
+   [Matched: strong_keyword]
+
+242. FaIRClocks: Fair and Interpretable Representation of the Clock Drawing Test for mitigating classifier bias against lower educational groups.
+   Year: 2023 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/37886534/
+   DOI: https://doi.org/10.21203/rs.3.rs-3398970/v1
+   [Matched: bias+ai]
+
+243. Evaluating and mitigating bias in machine learning models for cardiovascular disease prediction.
+   Year: 2023 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36706849/
+   DOI: https://doi.org/10.1016/j.jbi.2023.104294
+   [Matched: strong_keyword]
+
+244. Ethicara for Responsible AI in Healthcare: A System for Bias Detection and AI Risk Management.
+   Year: 2023 | Journal: AMIA ... Annual Symposium proceedings. AMIA Symposium
+   URL: https://pubmed.ncbi.nlm.nih.gov/39435256/
+   [Matched: strong_keyword]
+
+245. Equity should be fundamental to the emergence of innovation.
+   Year: 2023 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/37036866/
+   DOI: https://doi.org/10.1371/journal.pdig.0000224
+   [Matched: strong_keyword]
+
+246. Digital Determinants of Health: Health data poverty amplifies existing health disparities-A scoping review.
+   Year: 2023 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/37824445/
+   DOI: https://doi.org/10.1371/journal.pdig.0000313
+   [Matched: strong_keyword]
+
+247. Development of a Machine Learning-Based Prescriptive Tool to Address Racial Disparities in Access to Care After Penetrating Trauma.
+   Year: 2023 | Journal: JAMA surgery
+   URL: https://pubmed.ncbi.nlm.nih.gov/37610746/
+   DOI: https://doi.org/10.1001/jamasurg.2023.2293
+   [Matched: strong_keyword]
+
+248. Developing Ethics and Equity Principles, Terms, and Engagement Tools to Advance Health Equity and Researcher Diversity in AI and Machine Learning: Modified Delphi Approach.
+   Year: 2023 | Journal: JMIR AI
+   URL: https://pubmed.ncbi.nlm.nih.gov/38875540/
+   DOI: https://doi.org/10.2196/52888
+   [Matched: strong_keyword]
+
+249. Designing Equitable Health Care Outreach Programs From Machine Learning Patient Risk Scores.
+   Year: 2023 | Journal: Medical care research and review : MCRR
+   URL: https://pubmed.ncbi.nlm.nih.gov/35685000/
+   DOI: https://doi.org/10.1177/10775587221098831
+   [Matched: strong_keyword]
+
+250. D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias.
+   Year: 2023 | Journal: IEEE transactions on visualization and computer graphics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36155458/
+   DOI: https://doi.org/10.1109/TVCG.2022.3209484
+   [Matched: strong_keyword]
+
+251. Considerations for addressing bias in artificial intelligence for health equity.
+   Year: 2023 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/37700029/
+   DOI: https://doi.org/10.1038/s41746-023-00913-9
+   [Matched: strong_keyword]
+
+252. Call for algorithmic fairness to mitigate amplification of racial biases in artificial intelligence models used in orthodontics and craniofacial health.
+   Year: 2023 | Journal: Orthodontics & craniofacial research
+   URL: https://pubmed.ncbi.nlm.nih.gov/37846615/
+   DOI: https://doi.org/10.1111/ocr.12721
+   [Matched: strong_keyword]
+
+253. Building Diversity, Equity, and Inclusion Within Radiology Artificial Intelligence: Representation Matters, From Data to the Workforce.
+   Year: 2023 | Journal: Journal of the American College of Radiology : JACR
+   URL: https://pubmed.ncbi.nlm.nih.gov/37453602/
+   DOI: https://doi.org/10.1016/j.jacr.2023.06.014
+   [Matched: strong_keyword]
+
+254. Black and Latinx Primary Caregiver Considerations for Developing and Implementing a Machine Learning-Based Model for Detecting Child Abuse and Neglect With Implications for Racial Bias Reduction: Qualitative Interview Study With Primary Caregivers.
+   Year: 2023 | Journal: JMIR formative research
+   URL: https://pubmed.ncbi.nlm.nih.gov/36719717/
+   DOI: https://doi.org/10.2196/40194
+   [Matched: strong_keyword]
+
+255. Bias in artificial intelligence algorithms and recommendations for mitigation.
+   Year: 2023 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/37347721/
+   DOI: https://doi.org/10.1371/journal.pdig.0000278
+   [Matched: strong_keyword]
+
+256. Bias and Non-Diversity of Big Data in Artificial Intelligence: Focus on Retinal Diseases.
+   Year: 2023 | Journal: Seminars in ophthalmology
+   URL: https://pubmed.ncbi.nlm.nih.gov/36651834/
+   DOI: https://doi.org/10.1080/08820538.2023.2168486
+   [Matched: bias+ai]
+
+257. Availability of information needed to evaluate algorithmic fairness - A systematic review of publicly accessible critical care databases.
+   Year: 2023 | Journal: Anaesthesia, critical care & pain medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/37211215/
+   DOI: https://doi.org/10.1016/j.accpm.2023.101248
+   [Matched: strong_keyword]
+
+258. Automatic sleep staging for the young and the old - Evaluating age bias in deep learning.
+   Year: 2023 | Journal: Sleep medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/37099916/
+   DOI: https://doi.org/10.1016/j.sleep.2023.04.002
+   [Matched: strong_keyword]
+
+259. Artificial intelligence in global health equity: an evaluation and discussion on the application of ChatGPT, in the Chinese National Medical Licensing Examination.
+   Year: 2023 | Journal: Frontiers in medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/38020160/
+   DOI: https://doi.org/10.3389/fmed.2023.1237432
+   [Matched: strong_keyword]
+
+260. Artificial intelligence in cancer research and precision medicine: Applications, limitations and priorities to drive transformation in the delivery of equitable and unbiased care.
+   Year: 2023 | Journal: Cancer treatment reviews
+   URL: https://pubmed.ncbi.nlm.nih.gov/36527795/
+   DOI: https://doi.org/10.1016/j.ctrv.2022.102498
+   [Matched: strong_keyword]
+
+261. Architectural Design of a Blockchain-Enabled, Federated Learning Platform for Algorithmic Fairness in Predictive Health Care: Design Science Study.
+   Year: 2023 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/37902833/
+   DOI: https://doi.org/10.2196/46547
+   [Matched: strong_keyword]
+
+262. An Expert Panel Discussion Embedding Ethics and Equity in Artificial Intelligence and Machine Learning Infrastructure.
+   Year: 2023 | Journal: Big data
+   URL: https://pubmed.ncbi.nlm.nih.gov/37756206/
+   DOI: https://doi.org/10.1089/big.2023.29061.rtd
+   [Matched: strong_keyword]
+
+263. Algorithmic fairness in artificial intelligence for medicine and healthcare.
+   Year: 2023 | Journal: Nature biomedical engineering
+   URL: https://pubmed.ncbi.nlm.nih.gov/37380750/
+   DOI: https://doi.org/10.1038/s41551-023-01056-8
+   [Matched: strong_keyword]
+
+264. Algorithmic bias in artificial intelligence is a problem-And the root issue is power.
+   Year: 2023 | Journal: Nursing outlook
+   URL: https://pubmed.ncbi.nlm.nih.gov/37579574/
+   DOI: https://doi.org/10.1016/j.outlook.2023.102023
+   [Matched: strong_keyword]
+
+265. A translational perspective towards clinical AI fairness.
+   Year: 2023 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/37709945/
+   DOI: https://doi.org/10.1038/s41746-023-00918-4
+   [Matched: strong_keyword]
+
+266. A systematic review of data sources for artificial intelligence applications in pediatric brain tumors in Europe: implications for bias and generalizability.
+   Year: 2023 | Journal: Frontiers in oncology
+   URL: https://pubmed.ncbi.nlm.nih.gov/38016063/
+   DOI: https://doi.org/10.3389/fonc.2023.1285775
+   [Matched: bias+ai]
+
+267. A Skewed Loss Function for Correcting Predictive Bias in Brain Age Prediction.
+   Year: 2023 | Journal: IEEE transactions on medical imaging
+   URL: https://pubmed.ncbi.nlm.nih.gov/37015392/
+   DOI: https://doi.org/10.1109/TMI.2022.3231730
+   [Matched: strong_keyword]
+
+268. A Comprehensive and Bias-Free Machine Learning Approach for Risk Prediction of Preeclampsia with Severe Features in a Nulliparous Study Cohort.
+   Year: 2023 | Journal: Research square
+   URL: https://pubmed.ncbi.nlm.nih.gov/37090627/
+   DOI: https://doi.org/10.21203/rs.3.rs-2635419/v1
+   [Matched: bias+ai]
+
+269. A Call to Action on Assessing and Mitigating Bias in Artificial Intelligence Applications for Mental Health.
+   Year: 2023 | Journal: Perspectives on psychological science : a journal of the Association for Psychological Science
+   URL: https://pubmed.ncbi.nlm.nih.gov/36490369/
+   DOI: https://doi.org/10.1177/17456916221134490
+   [Matched: strong_keyword]
+
+270. "Shortcuts" Causing Bias in Radiology Artificial Intelligence: Causes, Evaluation, and Mitigation.
+   Year: 2023 | Journal: Journal of the American College of Radiology : JACR
+   URL: https://pubmed.ncbi.nlm.nih.gov/37506964/
+   DOI: https://doi.org/10.1016/j.jacr.2023.06.025
+   [Matched: bias+ai]
+
+271. Utilizing Artificial Intelligence to Enhance Health Equity Among Patients with Heart Failure.
+   Year: 2022 | Journal: Heart failure clinics
+   URL: https://pubmed.ncbi.nlm.nih.gov/35341539/
+   DOI: https://doi.org/10.1016/j.hfc.2021.11.001
+   [Matched: strong_keyword]
+
+272. Use of a community advisory board to build equitable algorithms for participation in clinical trials: a protocol paper for HoPeNET.
+   Year: 2022 | Journal: BMJ health & care informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/35185011/
+   DOI: https://doi.org/10.1136/bmjhci-2021-100453
+   [Matched: strong_keyword]
+
+273. Understanding the bias in machine learning systems for cardiovascular disease risk assessment: The first of its kind review.
+   Year: 2022 | Journal: Computers in biology and medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/35033879/
+   DOI: https://doi.org/10.1016/j.compbiomed.2021.105204
+   [Matched: strong_keyword]
+
+274. Turing test-inspired method for analysis of biases prevalent in artificial intelligence-based medical imaging.
+   Year: 2022 | Journal: AI and ethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36313215/
+   DOI: https://doi.org/10.1007/s43681-022-00227-8
+   [Matched: bias+ai]
+
+275. The Impact of Artificial Intelligence on Health Equity in Oncology: Scoping Review.
+   Year: 2022 | Journal: Journal of medical Internet research
+   URL: https://pubmed.ncbi.nlm.nih.gov/36005841/
+   DOI: https://doi.org/10.2196/39748
+   [Matched: strong_keyword]
+
+276. Special Section on Inclusive Digital Health: Notable Papers on Addressing Bias, Equity, and Literacy to Strengthen Health Systems.
+   Year: 2022 | Journal: Yearbook of medical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36463866/
+   DOI: https://doi.org/10.1055/s-0042-1742536
+   [Matched: strong_keyword]
+
+277. Sources of bias in artificial intelligence that perpetuate healthcare disparities-A global review.
+   Year: 2022 | Journal: PLOS digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/36812532/
+   DOI: https://doi.org/10.1371/journal.pdig.0000022
+   [Matched: strong_keyword]
+
+278. Predicting Race And Ethnicity To Ensure Equitable Algorithms For Health Care Decision Making.
+   Year: 2022 | Journal: Health affairs (Project Hope)
+   URL: https://pubmed.ncbi.nlm.nih.gov/35914194/
+   DOI: https://doi.org/10.1377/hlthaff.2022.00095
+   [Matched: strong_keyword]
+
+279. On Algorithmic Fairness in Medical Practice.
+   Year: 2022 | Journal: Cambridge quarterly of healthcare ethics : CQ : the international journal of healthcare ethics committees
+   URL: https://pubmed.ncbi.nlm.nih.gov/35049447/
+   DOI: https://doi.org/10.1017/S0963180121000839
+   [Matched: strong_keyword]
+
+280. Negative Patient Descriptors: Documenting Racial Bias In The Electronic Health Record.
+   Year: 2022 | Journal: Health affairs (Project Hope)
+   URL: https://pubmed.ncbi.nlm.nih.gov/35044842/
+   DOI: https://doi.org/10.1377/hlthaff.2021.01423
+   [Matched: strong_keyword]
+
+281. Mitigating the impact of biased artificial intelligence in emergency decision-making.
+   Year: 2022 | Journal: Communications medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/36414774/
+   DOI: https://doi.org/10.1038/s43856-022-00214-4
+   [Matched: bias+ai]
+
+282. Mitigating Bias in Radiology Machine Learning: 2. Model Development.
+   Year: 2022 | Journal: Radiology. Artificial intelligence
+   URL: https://pubmed.ncbi.nlm.nih.gov/36204532/
+   DOI: https://doi.org/10.1148/ryai.220010
+   [Matched: bias+ai]
+
+283. Investigation of biases in convolutional neural networks for semantic segmentation using performance sensitivity analysis.
+   Year: 2022 | Journal: Zeitschrift fur medizinische Physik
+   URL: https://pubmed.ncbi.nlm.nih.gov/35016819/
+   DOI: https://doi.org/10.1016/j.zemedi.2021.11.004
+   [Matched: bias+ai]
+
+284. Investigating for bias in healthcare algorithms: a sex-stratified analysis of supervised machine learning models in liver disease prediction.
+   Year: 2022 | Journal: BMJ health & care informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/35470133/
+   DOI: https://doi.org/10.1136/bmjhci-2021-100457
+   [Matched: strong_keyword]
+
+285. Interpretability-Guided Inductive Bias For Deep Learning Based Medical Image.
+   Year: 2022 | Journal: Medical image analysis
+   URL: https://pubmed.ncbi.nlm.nih.gov/35932546/
+   DOI: https://doi.org/10.1016/j.media.2022.102551
+   [Matched: bias+ai]
+
+286. Interpretability and fairness evaluation of deep learning models on MIMIC-IV dataset.
+   Year: 2022 | Journal: Scientific reports
+   URL: https://pubmed.ncbi.nlm.nih.gov/35504931/
+   DOI: https://doi.org/10.1038/s41598-022-11012-2
+   [Matched: bias+ai]
+
+287. Improving Fairness in the Prediction of Heart Failure Length of Stay and Mortality by Integrating Social Determinants of Health.
+   Year: 2022 | Journal: Circulation. Heart failure
+   URL: https://pubmed.ncbi.nlm.nih.gov/36378761/
+   DOI: https://doi.org/10.1161/CIRCHEARTFAILURE.122.009473
+   [Matched: bias+ai]
+
+288. Foundations for fairness in digital health apps.
+   Year: 2022 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/36111262/
+   DOI: https://doi.org/10.3389/fdgth.2022.943514
+   [Matched: bias+ai]
+
+289. Fairness in the prediction of acute postoperative pain using machine learning models.
+   Year: 2022 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/36714611/
+   DOI: https://doi.org/10.3389/fdgth.2022.970281
+   [Matched: bias+ai]
+
+290. Fairness in Mobile Phone-Based Mental Health Assessment Algorithms: Exploratory Study.
+   Year: 2022 | Journal: JMIR formative research
+   URL: https://pubmed.ncbi.nlm.nih.gov/35699997/
+   DOI: https://doi.org/10.2196/34366
+   [Matched: bias+ai]
+
+291. Evaluation and Mitigation of Racial Bias in Clinical Machine Learning Models: Scoping Review.
+   Year: 2022 | Journal: JMIR medical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/35639450/
+   DOI: https://doi.org/10.2196/36388
+   [Matched: strong_keyword]
+
+292. Equity in AgeTech for Ageing Well in Technology-Driven Places: The Role of Social Determinants in Designing AI-based Assistive Technologies.
+   Year: 2022 | Journal: Science and engineering ethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/36301408/
+   DOI: https://doi.org/10.1007/s11948-022-00397-y
+   [Matched: strong_keyword]
+
+293. Contextual bias, the democratization of healthcare, and medical artificial intelligence in low- and middle-income countries.
+   Year: 2022 | Journal: Bioethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/34460977/
+   DOI: https://doi.org/10.1111/bioe.12927
+   [Matched: bias+ai]
+
+294. Considerations in the reliability and fairness audits of predictive models for advance care planning.
+   Year: 2022 | Journal: Frontiers in digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/36339512/
+   DOI: https://doi.org/10.3389/fdgth.2022.943768
+   [Matched: bias+ai]
+
+295. Conceptualising fairness: three pillars for medical algorithms and health equity.
+   Year: 2022 | Journal: BMJ health & care informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/35012941/
+   DOI: https://doi.org/10.1136/bmjhci-2021-100459
+   [Matched: strong_keyword]
+
+296. Closing the Gaps in Racial Disparities in Critical Limb Ischemia Outcome and Amputation Rates: Proceedings from a Society of Interventional Radiology Foundation Research Consensus Panel.
+   Year: 2022 | Journal: Journal of vascular and interventional radiology : JVIR
+   URL: https://pubmed.ncbi.nlm.nih.gov/35489789/
+   DOI: https://doi.org/10.1016/j.jvir.2022.02.010
+   [Matched: strong_keyword]
+
+297. Bias or biology? Importance of model interpretation in machine learning studies from electronic health records.
+   Year: 2022 | Journal: JAMIA open
+   URL: https://pubmed.ncbi.nlm.nih.gov/35958671/
+   DOI: https://doi.org/10.1093/jamiaopen/ooac063
+   [Matched: bias+ai]
+
+298. Assessing socioeconomic bias in machine learning algorithms in health care: a case study of the HOUSES index.
+   Year: 2022 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/35396996/
+   DOI: https://doi.org/10.1093/jamia/ocac052
+   [Matched: strong_keyword]
+
+299. Artificial intelligence in gastroenterology and hepatology: how to advance clinical practice while ensuring health equity.
+   Year: 2022 | Journal: Gut
+   URL: https://pubmed.ncbi.nlm.nih.gov/35688612/
+   DOI: https://doi.org/10.1136/gutjnl-2021-326271
+   [Matched: strong_keyword]
+
+300. Artificial intelligence for prediction of treatment outcomes in breast cancer: Systematic review of design, reporting standards, and bias.
+   Year: 2022 | Journal: Cancer treatment reviews
+   URL: https://pubmed.ncbi.nlm.nih.gov/35609495/
+   DOI: https://doi.org/10.1016/j.ctrv.2022.102410
+   [Matched: bias+ai]
+
+301. Artificial intelligence and health inequities in primary care: a systematic scoping review and framework.
+   Year: 2022 | Journal: Family medicine and community health
+   URL: https://pubmed.ncbi.nlm.nih.gov/36450391/
+   DOI: https://doi.org/10.1136/fmch-2022-001670
+   [Matched: strong_keyword]
+
+302. Artificial Intelligence and Machine Learning Technologies in Cancer Care: Addressing Disparities, Bias, and Data Diversity.
+   Year: 2022 | Journal: Cancer discovery
+   URL: https://pubmed.ncbi.nlm.nih.gov/35652218/
+   DOI: https://doi.org/10.1158/2159-8290.CD-22-0373
+   [Matched: bias+ai]
+
+303. An artificial intelligence framework and its bias for brain tumor segmentation: A narrative review.
+   Year: 2022 | Journal: Computers in biology and medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/35228172/
+   DOI: https://doi.org/10.1016/j.compbiomed.2022.105273
+   [Matched: bias+ai]
+
+304. Algorithmic bias in health care: Opportunities for nurses to improve equality in the age of artificial intelligence.
+   Year: 2022 | Journal: Nursing outlook
+   URL: https://pubmed.ncbi.nlm.nih.gov/36396503/
+   DOI: https://doi.org/10.1016/j.outlook.2022.09.003
+   [Matched: strong_keyword]
+
+305. Algorithmic Discrimination in Health Care: An EU Law Perspective.
+   Year: 2022 | Journal: Health and human rights
+   URL: https://pubmed.ncbi.nlm.nih.gov/35747275/
+   [Matched: strong_keyword]
+
+306. Age, sex and race bias in automated arrhythmia detectors.
+   Year: 2022 | Journal: Journal of electrocardiology
+   URL: https://pubmed.ncbi.nlm.nih.gov/35878534/
+   DOI: https://doi.org/10.1016/j.jelectrocard.2022.07.007
+   [Matched: strong_keyword]
+
+307. A bias evaluation checklist for predictive models and its pilot application for 30-day hospital readmission models.
+   Year: 2022 | Journal: Journal of the American Medical Informatics Association : JAMIA
+   URL: https://pubmed.ncbi.nlm.nih.gov/35579328/
+   DOI: https://doi.org/10.1093/jamia/ocac065
+   [Matched: bias+ai]
+
+308. Towards a pragmatist dealing with algorithmic bias in medical machine learning.
+   Year: 2021 | Journal: Medicine, health care, and philosophy
+   URL: https://pubmed.ncbi.nlm.nih.gov/33713239/
+   DOI: https://doi.org/10.1007/s11019-021-10008-5
+   [Matched: strong_keyword]
+
+309. Towards Equitable AI Interventions for People Who Use Drugs: Key Areas That Require Ethical Investment.
+   Year: 2021 | Journal: Journal of addiction medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/32833747/
+   DOI: https://doi.org/10.1097/ADM.0000000000000722
+   [Matched: strong_keyword]
+
+310. The Problem of Fairness in Synthetic Healthcare Data.
+   Year: 2021 | Journal: Entropy (Basel, Switzerland)
+   URL: https://pubmed.ncbi.nlm.nih.gov/34573790/
+   DOI: https://doi.org/10.3390/e23091165
+   [Matched: bias+ai]
+
+311. The Emerging Hazard of AI-Related Health Care Discrimination.
+   Year: 2021 | Journal: The Hastings Center report
+   URL: https://pubmed.ncbi.nlm.nih.gov/33315263/
+   DOI: https://doi.org/10.1002/hast.1203
+   [Matched: bias+ai]
+
+312. Sex-tailored pharmacology and COVID-19: Next steps towards appropriateness and health equity.
+   Year: 2021 | Journal: Pharmacological research
+   URL: https://pubmed.ncbi.nlm.nih.gov/34454035/
+   DOI: https://doi.org/10.1016/j.phrs.2021.105848
+   [Matched: strong_keyword]
+
+313. Protocol for development of a reporting guideline (TRIPOD-AI) and risk of bias tool (PROBAST-AI) for diagnostic and prognostic prediction model studies based on artificial intelligence.
+   Year: 2021 | Journal: BMJ open
+   URL: https://pubmed.ncbi.nlm.nih.gov/34244270/
+   DOI: https://doi.org/10.1136/bmjopen-2020-048008
+   [Matched: bias+ai]
+
+314. For a critical appraisal of artificial intelligence in healthcare: The problem of bias in mHealth.
+   Year: 2021 | Journal: Journal of evaluation in clinical practice
+   URL: https://pubmed.ncbi.nlm.nih.gov/33369050/
+   DOI: https://doi.org/10.1111/jep.13528
+   [Matched: bias+ai]
+
+315. Federated Adversarial Debiasing for Fair and Transferable Representations.
+   Year: 2021 | Journal: KDD : proceedings. International Conference on Knowledge Discovery & Data Mining
+   URL: https://pubmed.ncbi.nlm.nih.gov/35571559/
+   DOI: https://doi.org/10.1145/3447548.3467281
+   [Matched: strong_keyword]
+
+316. Explainable Artificial Intelligence for Bias Detection in COVID CT-Scan Classifiers.
+   Year: 2021 | Journal: Sensors (Basel, Switzerland)
+   URL: https://pubmed.ncbi.nlm.nih.gov/34451100/
+   DOI: https://doi.org/10.3390/s21165657
+   [Matched: strong_keyword]
+
+317. Ethics of artificial intelligence in global health: Explainability, algorithmic bias and trust.
+   Year: 2021 | Journal: Journal of oral biology and craniofacial research
+   URL: https://pubmed.ncbi.nlm.nih.gov/34567966/
+   DOI: https://doi.org/10.1016/j.jobcr.2021.09.004
+   [Matched: strong_keyword]
+
+318. Comparison of Methods to Reduce Bias From Clinical Prediction Models of Postpartum Depression.
+   Year: 2021 | Journal: JAMA network open
+   URL: https://pubmed.ncbi.nlm.nih.gov/33856478/
+   DOI: https://doi.org/10.1001/jamanetworkopen.2021.3909
+   [Matched: bias+ai]
+
+319. CheXclusion: Fairness gaps in deep chest X-ray classifiers.
+   Year: 2021 | Journal: Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing
+   URL: https://pubmed.ncbi.nlm.nih.gov/33691020/
+   [Matched: bias+ai]
+
+320. COVID-19 diagnosis from chest X-ray images using transfer learning: Enhanced performance by debiasing dataloader.
+   Year: 2021 | Journal: Journal of X-ray science and technology
+   URL: https://pubmed.ncbi.nlm.nih.gov/33459685/
+   DOI: https://doi.org/10.3233/XST-200757
+   [Matched: strong_keyword]
+
+321. An empirical characterization of fair machine learning for clinical risk prediction.
+   Year: 2021 | Journal: Journal of biomedical informatics
+   URL: https://pubmed.ncbi.nlm.nih.gov/33220494/
+   DOI: https://doi.org/10.1016/j.jbi.2020.103621
+   [Matched: strong_keyword]
+
+322. Advancing health equity with artificial intelligence.
+   Year: 2021 | Journal: Journal of public health policy
+   URL: https://pubmed.ncbi.nlm.nih.gov/34811466/
+   DOI: https://doi.org/10.1057/s41271-021-00319-5
+   [Matched: strong_keyword]
+
+323. Addressing bias in big data and AI for health care: A call for open science.
+   Year: 2021 | Journal: Patterns (New York, N.Y.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/34693373/
+   DOI: https://doi.org/10.1016/j.patter.2021.100347
+   [Matched: bias+ai]
+
+324. Unsupervised Domain Adaptation to Classify Medical Images Using Zero-Bias Convolutional Auto-Encoders and Context-Based Feature Augmentation.
+   Year: 2020 | Journal: IEEE transactions on medical imaging
+   URL: https://pubmed.ncbi.nlm.nih.gov/32012005/
+   DOI: https://doi.org/10.1109/TMI.2020.2971258
+   [Matched: bias+ai]
+
+325. Stigma, biomarkers, and algorithmic bias: recommendations for precision behavioral health with artificial intelligence.
+   Year: 2020 | Journal: JAMIA open
+   URL: https://pubmed.ncbi.nlm.nih.gov/32607482/
+   DOI: https://doi.org/10.1093/jamiaopen/ooz054
+   [Matched: strong_keyword]
+
+326. Sex and gender differences and biases in artificial intelligence for biomedicine and healthcare.
+   Year: 2020 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/32529043/
+   DOI: https://doi.org/10.1038/s41746-020-0288-5
+   [Matched: bias+ai]
+
+327. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities.
+   Year: 2020 | Journal: NPJ digital medicine
+   URL: https://pubmed.ncbi.nlm.nih.gov/32821854/
+   DOI: https://doi.org/10.1038/s41746-020-0304-9
+   [Matched: strong_keyword]
+
+328. Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis.
+   Year: 2020 | Journal: Proceedings of the National Academy of Sciences of the United States of America
+   URL: https://pubmed.ncbi.nlm.nih.gov/32457147/
+   DOI: https://doi.org/10.1073/pnas.1919012117
+   [Matched: bias+ai]
+
+329. Artificial Intelligence in mental health and the biases of language based models.
+   Year: 2020 | Journal: PloS one
+   URL: https://pubmed.ncbi.nlm.nih.gov/33332380/
+   DOI: https://doi.org/10.1371/journal.pone.0240376
+   [Matched: bias+ai]
+
+330. Addressing bias: artificial intelligence in cardiovascular medicine.
+   Year: 2020 | Journal: The Lancet. Digital health
+   URL: https://pubmed.ncbi.nlm.nih.gov/33328028/
+   DOI: https://doi.org/10.1016/S2589-7500(20)30249-1
+   [Matched: bias+ai]
+
+331. A Racially Unbiased, Machine Learning Approach to Prediction of Mortality: Algorithm Development Study.
+   Year: 2020 | Journal: JMIR public health and surveillance
+   URL: https://pubmed.ncbi.nlm.nih.gov/33090117/
+   DOI: https://doi.org/10.2196/22400
+   [Matched: bias+ai]
+
+332. The Role of the ACR Data Science Institute in Advancing Health Equity in Radiology.
+   Year: 2019 | Journal: Journal of the American College of Radiology : JACR
+   URL: https://pubmed.ncbi.nlm.nih.gov/30947901/
+   DOI: https://doi.org/10.1016/j.jacr.2018.12.038
+   [Matched: strong_keyword]
+
+333. Dissecting racial bias in an algorithm used to manage the health of populations.
+   Year: 2019 | Journal: Science (New York, N.Y.)
+   URL: https://pubmed.ncbi.nlm.nih.gov/31649194/
+   DOI: https://doi.org/10.1126/science.aax2342
+   [Matched: strong_keyword]
+
+334. Can AI Help Reduce Disparities in General Medical and Mental Health Care?
+   Year: 2019 | Journal: AMA journal of ethics
+   URL: https://pubmed.ncbi.nlm.nih.gov/30794127/
+   DOI: https://doi.org/10.1001/amajethics.2019.167
+   [Matched: bias+ai]
+
+335. Artificial intelligence and algorithmic bias: implications for health systems.
+   Year: 2019 | Journal: Journal of global health
+   URL: https://pubmed.ncbi.nlm.nih.gov/31788229/
+   DOI: https://doi.org/10.7189/jogh.09.020318
+   [Matched: strong_keyword]
+
+336. Bias From Potentially Mischievous Responders on Large-Scale Estimates of Lesbian, Gay, Bisexual, or Questioning (LGBQ)-Heterosexual Youth Health Disparities.
+   Year: 2018 | Journal: American journal of public health
+   URL: https://pubmed.ncbi.nlm.nih.gov/30383423/
+   DOI: https://doi.org/10.2105/AJPH.2018.304407
+   [Matched: strong_keyword]
+
