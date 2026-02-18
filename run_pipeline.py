@@ -58,8 +58,8 @@ def main():
     print("Approaches for Assessing and Mitigating Algorithmic Bias in Health AI")
     print("=" * 70)
     print(f"\nDatabases: PubMed, Scopus, ACM (OpenAlex), IEEE (OpenAlex)")
-    print(f"Screening: Shared criteria via shared_screening.py")
-    print(f"Full-text: PMC for PubMed (pass through if unavailable); none for others")
+    print(f"Stage 1: Title+Abstract screening (shared criteria)")
+    print(f"Stage 2: Full-text screening via PMC for all databases (pass through if unavailable)")
     print(f"Dedup: DOI + normalized title matching across all databases")
 
     overall_start = time.time()

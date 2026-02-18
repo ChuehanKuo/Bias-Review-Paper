@@ -7,6 +7,11 @@ Single source of truth — used by PubMed, Scopus, ACM, and IEEE pipelines.
 """
 
 import re
+import json
+import time
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -274,6 +279,156 @@ def fulltext_screen(paper, full_text):
         return True, 'Included: bias is central topic (full text)'
     else:
         return False, f'Excluded: insufficient approach content in full text ({approach_count} indicators)'
+
+
+# ============================================================
+# PMC FULL-TEXT RETRIEVAL (shared across all pipelines)
+# ============================================================
+
+def batch_get_pmcids(ids, batch_size=200):
+    """
+    Convert PMIDs or DOIs to PMCIDs using NCBI ID converter.
+    Accepts a list of PMIDs (strings) or DOIs (strings).
+    Returns dict mapping input_id -> pmcid.
+    """
+    id_to_pmcid = {}
+    for i in range(0, len(ids), batch_size):
+        batch = ids[i:i+batch_size]
+        ids_str = ','.join(batch)
+        url = f"https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids={ids_str}&format=json"
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url), timeout=30) as resp:
+                data = json.loads(resp.read().decode('utf-8'))
+            for rec in data.get('records', []):
+                pmcid = rec.get('pmcid', '')
+                if not pmcid:
+                    continue
+                # Map back by pmid or doi (API returns pmid as int)
+                pmid = str(rec.get('pmid', ''))
+                doi = str(rec.get('doi', ''))
+                if pmid and pmid in batch:
+                    id_to_pmcid[pmid] = pmcid
+                if doi and doi in batch:
+                    id_to_pmcid[doi] = pmcid
+                # Also try lowercase DOI match
+                if doi:
+                    for b in batch:
+                        if b.lower() == doi.lower():
+                            id_to_pmcid[b] = pmcid
+        except Exception as e:
+            print(f"    PMCID batch error: {e}")
+        time.sleep(0.4)
+    return id_to_pmcid
+
+
+def fetch_pmc_fulltext(pmcid, retries=2):
+    """Fetch full text from PMC as plain text."""
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id={pmcid}&rettype=xml&retmode=xml"
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'SystematicReview/1.0'})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                xml_data = resp.read().decode('utf-8')
+            root = ET.fromstring(xml_data)
+            body = root.find('.//body')
+            if body is not None:
+                text = ' '.join(body.itertext())
+                if len(text) > 100:
+                    return text
+            abstract = root.find('.//abstract')
+            if abstract is not None:
+                text = ' '.join(abstract.itertext())
+                if len(text) > 100:
+                    return text
+            return None
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(1)
+    return None
+
+
+def run_fulltext_screening(ta_included, id_field='doi', db_label=''):
+    """
+    Full-text screening for any database pipeline.
+
+    Looks up PMCIDs via DOI or PMID, fetches PMC full text,
+    and applies fulltext_screen().
+
+    Args:
+        ta_included: list of papers that passed title+abstract screening
+        id_field: 'pmid' for PubMed, 'doi' for others
+        db_label: label for logging (e.g. 'Scopus')
+
+    Returns:
+        (included, ft_excluded, stats_dict)
+    """
+    label = db_label or 'DB'
+
+    # Build lookup IDs
+    lookup_ids = []
+    paper_by_id = {}
+    for p in ta_included:
+        lid = p.get(id_field, '')
+        if lid:
+            lookup_ids.append(lid)
+            paper_by_id[lid] = p
+
+    print(f"  Looking up PMCIDs for {len(lookup_ids)} papers (via {id_field})...")
+    pmcid_map = batch_get_pmcids(lookup_ids)
+    print(f"  PMCIDs found: {len(pmcid_map)} / {len(lookup_ids)}")
+
+    included = []
+    ft_excluded = []
+    ft_screened = 0
+    ft_unavailable = 0
+    ft_passed = 0
+
+    for p in ta_included:
+        lid = p.get(id_field, '')
+        pmcid = pmcid_map.get(lid) if lid else None
+
+        if pmcid:
+            full_text = fetch_pmc_fulltext(pmcid)
+            if full_text and len(full_text) > 200:
+                ft_screened += 1
+                inc, reason = fulltext_screen(p, full_text)
+                if inc:
+                    p['ft_status'] = f'Full text screened ({pmcid})'
+                    p['ft_reason'] = reason
+                    included.append(p)
+                    ft_passed += 1
+                else:
+                    p['ft_status'] = f'Full text excluded ({pmcid})'
+                    p['ft_reason'] = reason
+                    p['exclusion_stage'] = 'Full-Text'
+                    p['exclusion_reason'] = reason
+                    ft_excluded.append(p)
+            else:
+                ft_unavailable += 1
+                p['ft_status'] = f'PMC fetch failed ({pmcid}) — passed through'
+                p['ft_reason'] = 'Full text unavailable, passed through'
+                included.append(p)
+            time.sleep(0.15)
+        else:
+            ft_unavailable += 1
+            p['ft_status'] = f'No PMC full text — passed through'
+            p['ft_reason'] = f'{label}: no PMC ID found, passed through'
+            included.append(p)
+
+    stats = {
+        'ft_screened': ft_screened,
+        'ft_passed': ft_passed,
+        'ft_excluded': len(ft_excluded),
+        'ft_unavailable': ft_unavailable,
+    }
+
+    print(f"  Full-text screened: {ft_screened}")
+    print(f"  Full-text passed: {ft_passed}")
+    print(f"  Full-text excluded: {len(ft_excluded)}")
+    print(f"  No full text (passed through): {ft_unavailable}")
+    print(f"  TOTAL INCLUDED: {len(included)}")
+
+    return included, ft_excluded, stats
 
 
 # ============================================================

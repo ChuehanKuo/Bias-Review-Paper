@@ -7,7 +7,7 @@ PubMed/MEDLINE Pipeline for Systematic Review:
 2. Deduplicate PMIDs
 3. Fetch title + abstract metadata
 4. Title+Abstract screening (shared criteria)
-5. Try PMC full text — if available, screen it; if not, pass through
+5. Full-text screening via PMC (pass through if unavailable)
 6. Extract structured columns
 7. Build Excel + JSON backup
 """
@@ -165,58 +165,6 @@ def fetch_papers(pmids, batch_size=200):
 
 
 # ============================================================
-# PMC FULL TEXT
-# ============================================================
-
-def batch_get_pmcids(pmids, batch_size=200):
-    """Convert PMIDs to PMCIDs using NCBI ID converter."""
-    pmid_to_pmcid = {}
-    for i in range(0, len(pmids), batch_size):
-        batch = pmids[i:i+batch_size]
-        ids_str = ','.join(batch)
-        url = f"https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids={ids_str}&format=json"
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url), timeout=30) as resp:
-                data = json.loads(resp.read().decode('utf-8'))
-            for rec in data.get('records', []):
-                pmid = rec.get('pmid', '')
-                pmcid = rec.get('pmcid', '')
-                if pmid and pmcid:
-                    pmid_to_pmcid[pmid] = pmcid
-        except Exception as e:
-            print(f"  PMCID batch error: {e}")
-        time.sleep(0.4)
-    return pmid_to_pmcid
-
-
-def fetch_pmc_fulltext(pmcid, retries=2):
-    """Fetch full text from PMC as plain text."""
-    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id={pmcid}&rettype=xml&retmode=xml"
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'SystematicReview/1.0'})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                xml_data = resp.read().decode('utf-8')
-            root = ET.fromstring(xml_data)
-            body = root.find('.//body')
-            if body is not None:
-                text = ' '.join(body.itertext())
-                if len(text) > 100:
-                    return text
-            # Fallback: try article-meta abstract if body is empty
-            abstract = root.find('.//abstract')
-            if abstract is not None:
-                text = ' '.join(abstract.itertext())
-                if len(text) > 100:
-                    return text
-            return None
-        except Exception:
-            if attempt < retries - 1:
-                time.sleep(1)
-    return None
-
-
-# ============================================================
 # MAIN
 # ============================================================
 
@@ -263,55 +211,9 @@ def main():
     print(f"  INCLUDED: {len(ta_included)}")
     print(f"  EXCLUDED: {len(ta_excluded)}")
 
-    # Step 4: Try PMC full text
-    print(f"\nSTEP 4: Attempting PMC full-text retrieval for {len(ta_included)} papers...")
-    pmids_for_pmc = [p['pmid'] for p in ta_included]
-    pmcid_map = batch_get_pmcids(pmids_for_pmc)
-    print(f"  PMCIDs found: {len(pmcid_map)} / {len(pmids_for_pmc)}")
-
-    included = []
-    ft_excluded = []
-    ft_screened = 0
-    ft_unavailable = 0
-    ft_passed = 0
-
-    for p in ta_included:
-        pmcid = pmcid_map.get(p['pmid'])
-        if pmcid:
-            full_text = fetch_pmc_fulltext(pmcid)
-            if full_text and len(full_text) > 200:
-                ft_screened += 1
-                inc, reason = ss.fulltext_screen(p, full_text)
-                if inc:
-                    p['ft_status'] = f'Full text screened ({pmcid})'
-                    p['ft_reason'] = reason
-                    included.append(p)
-                    ft_passed += 1
-                else:
-                    p['ft_status'] = f'Full text excluded ({pmcid})'
-                    p['ft_reason'] = reason
-                    p['exclusion_stage'] = 'Full-Text'
-                    p['exclusion_reason'] = reason
-                    ft_excluded.append(p)
-            else:
-                # Full text fetch failed — pass through
-                ft_unavailable += 1
-                p['ft_status'] = f'PMC fetch failed ({pmcid}) — passed through'
-                p['ft_reason'] = 'Full text unavailable, passed through'
-                included.append(p)
-            time.sleep(0.15)
-        else:
-            # No PMCID — pass through
-            ft_unavailable += 1
-            p['ft_status'] = 'No PMC full text — passed through'
-            p['ft_reason'] = 'No PMC ID, passed through'
-            included.append(p)
-
-    print(f"  Full-text screened: {ft_screened}")
-    print(f"  Full-text passed: {ft_passed}")
-    print(f"  Full-text excluded: {len(ft_excluded)}")
-    print(f"  No full text (passed through): {ft_unavailable}")
-    print(f"  TOTAL INCLUDED: {len(included)}")
+    # Step 4: Full-text screening via PMC
+    print(f"\nSTEP 4: Full-text screening via PMC for {len(ta_included)} papers...")
+    included, ft_excluded, ft_stats = ss.run_fulltext_screening(ta_included, id_field='pmid', db_label='PubMed')
 
     # Step 5: Extract columns
     print(f"\nSTEP 5: Extracting structured data for {len(included)} papers...")
@@ -334,9 +236,9 @@ def main():
         'total_unique': len(all_pmids),
         'total_fetched': len(papers),
         'ta_included': len(ta_included),
-        'ft_screened': ft_screened,
-        'ft_unavailable': ft_unavailable,
-        'ft_excluded': len(ft_excluded),
+        'ft_screened': ft_stats['ft_screened'],
+        'ft_unavailable': ft_stats['ft_unavailable'],
+        'ft_excluded': ft_stats['ft_excluded'],
     }
     config = {
         'db_name': 'PubMed/MEDLINE',
@@ -371,9 +273,9 @@ def main():
     print(f"  Total unique PMIDs: {len(all_pmids)}")
     print(f"  Fetched: {len(papers)}")
     print(f"  Title+Abstract included: {len(ta_included)}")
-    print(f"  Full-text screened: {ft_screened}")
-    print(f"  Full-text excluded: {len(ft_excluded)}")
-    print(f"  Passed through (no full text): {ft_unavailable}")
+    print(f"  Full-text screened: {ft_stats['ft_screened']}")
+    print(f"  Full-text excluded: {ft_stats['ft_excluded']}")
+    print(f"  Passed through (no full text): {ft_stats['ft_unavailable']}")
     print(f"  FINAL INCLUDED: {len(included)}")
     print(f"  TOTAL EXCLUDED: {len(all_excluded)}")
 
