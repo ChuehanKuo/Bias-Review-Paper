@@ -4,9 +4,9 @@ Scopus Pipeline for Systematic Review:
 "Approaches for Assessing and Mitigating Algorithmic Bias in Health AI"
 
 1. Search Scopus via Elsevier API with focused queries
-2. Deduplicate
+2. Fetch abstracts via OpenAlex
 3. Title+Abstract screening (shared criteria)
-4. No full text available — all TA-included papers pass through
+4. Full-text screening via PMC (DOI lookup)
 5. Extract structured columns
 6. Build Excel + JSON backup
 """
@@ -307,12 +307,9 @@ def main():
     print(f"  INCLUDED: {len(ta_included)}")
     print(f"  EXCLUDED: {len(ta_excluded)}")
 
-    # Step 4: No full text — all TA-included pass through
-    print(f"\nSTEP 4: Full text not available for Scopus — passing through all {len(ta_included)} papers...")
-    included = ta_included
-    for p in included:
-        p['ft_status'] = 'No full text available — passed through'
-        p['ft_reason'] = 'Scopus: full text not accessible via API'
+    # Step 4: Full-text screening via PMC (DOI lookup)
+    print(f"\nSTEP 4: Full-text screening via PMC for {len(ta_included)} papers...")
+    included, ft_excluded, ft_stats = ss.run_fulltext_screening(ta_included, id_field='doi', db_label='Scopus')
 
     # Step 5: Extract columns
     print(f"\nSTEP 5: Extracting structured data for {len(included)} papers...")
@@ -326,15 +323,17 @@ def main():
     all_excluded = []
     for p in ta_excluded:
         all_excluded.append({**p, 'exclusion_stage': 'Title+Abstract', 'exclusion_reason': p.get('screen_reason', '')})
+    for p in ft_excluded:
+        all_excluded.append({**p, 'exclusion_stage': 'Full-Text', 'exclusion_reason': p.get('ft_reason', '')})
 
     # Step 6: Build Excel
     print(f"\nSTEP 6: Building Excel...")
     meta = {
         'total_unique': len(all_papers),
         'ta_included': len(ta_included),
-        'ft_screened': 0,
-        'ft_unavailable': len(ta_included),
-        'ft_excluded': 0,
+        'ft_screened': ft_stats['ft_screened'],
+        'ft_unavailable': ft_stats['ft_unavailable'],
+        'ft_excluded': ft_stats['ft_excluded'],
     }
     config = {
         'db_name': 'Scopus',
@@ -354,6 +353,7 @@ def main():
     with open(json_path, 'w') as f:
         json.dump({
             'included': included,
+            'ft_excluded': ft_excluded,
             'ta_excluded': ta_excluded,
             'query_stats': query_stats,
             'meta': meta,
@@ -368,7 +368,9 @@ def main():
     print(f"  Total unique papers: {len(all_papers)}")
     print(f"  With abstracts: {with_abstract}")
     print(f"  Title+Abstract included: {len(ta_included)}")
-    print(f"  No full text (all passed through): {len(included)}")
+    print(f"  Full-text screened: {ft_stats['ft_screened']}")
+    print(f"  Full-text excluded: {ft_stats['ft_excluded']}")
+    print(f"  Passed through (no full text): {ft_stats['ft_unavailable']}")
     print(f"  FINAL INCLUDED: {len(included)}")
     print(f"  TOTAL EXCLUDED: {len(all_excluded)}")
 
